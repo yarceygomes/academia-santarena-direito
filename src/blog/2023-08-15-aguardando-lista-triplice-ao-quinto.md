@@ -1,0 +1,11 @@
+---
+title: "Aguardando lista tríplice rumo ao desembargo"
+date: 2023-08-15T15:45:00.005-03:00
+autor: "José Ronaldo Dias Campos"
+categoria: "Revista virtual"
+original: "https://joseronaldodiascampos.blogspot.com/2023/08/aguardando-lista-triplice-ao-quinto.html"
+importado: true
+templateEngineOverride: md
+---
+
+<p><a href="https://www.tjpa.jus.br/PortalExterno/imprensa/noticias/Informes/1597176-judiciario-recebe-lista-sextupla-da-oab-pa.xhtml">https://www.tjpa.jus.br/PortalExterno/imprensa/noticias/Informes/1597176-judiciario-recebe-lista-sextupla-da-oab-pa.xhtml</a></p><p>Poder Judiciário recebe lista sêxtupla da OAB Pará ao Quinto Constitucional</p><p>Candidatos concorrerão ao preenchimento da vaga no TJPA referente ao Quinto Constitucional</p><p>Vice pres. do TJPA, Des Roberto Moura e o des. Luiz Gonzaga Neto receberam da comitiva da OAB Pará, a lista sêxtupla</p><p>O vice-presidente do Tribunal de Justiça do Pará (TJPA), desembargador Roberto Gonçalves de Moura, recebeu sexta-feira, 4, do presidente da Ordem dos Advogados do Brasil - Seção Pará, Eduardo Imbiriba de Castro, a lista sêxtupla dos advogados aptos a concorrer ao preenchimento da vaga no TJPA, referente ao Quinto Constitucional, conforme o artigo 94 da Constituição Federal. A vacância no cargo é decorrente da aposentadoria do desembargador Milton Nobre.</p><p>A reunião também foi acompanhada pelo desembargador Luiz Neto, pela vice-presidente da OAB-Pará, Luciana Gluck Paul, e pelo secretário geral da entidade, Afonso Lobato.</p><p>O artigo 94 da Constituição Federal prevê o Quinto Constitucional, dispositivo que destina um quinto das vagas de determinados tribunais brasileiros a advogados e membros do Ministério Público. A lista sêxtupla, após fechada, é encaminhada ao Tribunal de Justiça, que a reduz para uma lista tríplice, em sessão do Pleno. Em seguida, é levada ao governador do Estado, que escolhe o nome em definitivo.</p><p>Confira a lista de candidatos (as):</p><p>José Ronaldo Dias Campos</p><p>João Batista Vieira dos Anjos</p><p>Alex Pinheiro Centeno</p><p>César Ramos da Costa</p><p>Odilon Vieira Neto</p><p>Kátia Tolentino Gusmão da Silva</p><p>Fonte: Coordenadoria de Imprensa do TJPA </p><p>Texto: Vanessa Vieira </p><p>Foto: Érika Miranda</p>

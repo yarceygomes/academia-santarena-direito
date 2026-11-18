@@ -1,0 +1,11 @@
+---
+title: "A Erosão do Direito e o Crepúsculo da Justiça,"
+date: 2025-03-03T14:05:00.003-03:00
+autor: "José Ronaldo Dias Campos"
+categoria: "Revista virtual"
+original: "https://joseronaldodiascampos.blogspot.com/2025/03/a-erosao-do-diteito-e-o-crepusculo-da.html"
+importado: true
+templateEngineOverride: md
+---
+
+<p>O Direito, enquanto ciência da interpretação, perdeu a arte. Sua essência, que deveria combinar rigor técnico com sensibilidade na aplicação das normas, foi engolida por um formalismo vazio e por uma polarização ideológica que obscurece a busca pela justiça. Esta, por sua vez, deixou de ser sonho para se tornar ilusão, descrédito.</p><p>O que aprendemos e cultivamos ao longo da história jurídica—princípios, dogmas, garantias fundamentais—parece hoje esvaziado de sentido. O Direito, que deveria ser um instrumento de estabilidade e previsibilidade, está atrofiado, confuso. Os princípios fundamentais, concebidos como normas de otimização do sistema jurídico, encontram-se arranhados, desvalorizados, tratados como obstáculos em vez de diretrizes.</p><p>Essa degradação é fruto de uma nefasta polarização que não apenas divide opiniões, mas corrói a racionalidade do debate jurídico. O Direito, que sempre exigiu ponderação e argumentação técnica, foi sequestrado por discursos passionais, por conveniências políticas e por interpretações que moldam as normas conforme interesses momentâneos. Agentes do Direito e legisladores, em vez de guardiões da ordem jurídica, muitas vezes se tornam peças de um tabuleiro dominado por ideologias e pressões externas.</p><p>O reflexo desse cenário no povo é evidente: a confiança nas instituições desmorona, a crença na imparcialidade da justiça se dilui, e a sensação de insegurança jurídica se espalha. Mergulhamos numa crise de incerteza que nos deixa perplexos, desesperançados, inebriados pelo caos normativo e pelo ativismo desenfreado.</p><p>Mais do que uma crise institucional, vivemos uma crise de valores e de identidade do Direito. O medo ronda a democracia, não apenas por ameaças externas, mas pela erosão interna de seus pilares fundamentais. Se o Direito continuar refém dessa degradação, o risco maior não será apenas a instabilidade jurídica, mas a dissolução da própria ideia de justiça como princípio regulador da sociedade.</p>

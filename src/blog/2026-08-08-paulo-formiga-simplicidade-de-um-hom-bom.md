@@ -1,0 +1,11 @@
+---
+title: "Paulo Formiga: a simplicidade de um homem bom"
+date: 2026-08-08T10:37:51.871-03:00
+autor: "José Ronaldo Dias Campos"
+categoria: "Revista virtual"
+original: "https://joseronaldodiascampos.blogspot.com/2026/08/paulo-formiga-simplicidade-de-um-hom-bom.html"
+importado: true
+templateEngineOverride: md
+---
+
+<p>Perdi um cunhado aos 62 anos, pouco depois de sua aposentadoria do Sistema Penal do Estado do Pará. Paulo Formiga, como era carinhosamente conhecido, era um cidadão boníssimo, desses que parecem carregar no peito um coração maior do que eles próprios.</p><p>Foi excelente jogador de futebol e, assim como seu irmão Zuza, brilhou com a camisa do São Raimundo, o querido clube da família.</p><p>Filho dos saudosos Virgílio e Pastorinha, Paulo faleceu justamente no lugar que escolhera como refúgio para descansar, pescar, conversar e divagar com seus amigos ribeirinhos: a Comunidade Pinduri, na Costa do Amazonas.</p><p>Como agente prisional, fez da humanidade uma marca de seu trabalho. Tratava os presos com dignidade e respeito e, por isso, conquistou a estima de todos. Muitos o chamavam de “nego velho”, reproduzindo, com afeição, a forma espontânea e bem-humorada com que ele próprio costumava se dirigir às pessoas.</p><p>Durante muitos anos, trabalhou na condução de presos às audiências no Fórum. Estava sempre disposto a atender quem o procurasse, quase invariavelmente com aquele sorriso maroto que lhe era peculiar.</p><p>Juízes, promotores, advogados e servidores gostavam dele e, não raro, conversavam informalmente sobre os internos que acompanhava. Paulo os conhecia bem e sabia falar de cada um sem preconceito, com a urbanidade e a compreensão próprias de quem recebera sólida formação familiar e religiosa.</p><p>A humildade talvez tenha sido sua virtude mais marcante. Não precisava de muito para ser feliz: a família, os amigos, o futebol, uma boa conversa e o sossego à beira do rio.</p><p>E foi justamente nesse recanto, escolhido para desfrutar a simplicidade da vida, que encerrou sua caminhada terrena.</p><p>Vá em paz, meu cunhado. Que a bondade e a alegria que você espalhou por onde passou continuem a brilhar no horizonte celestial. Um homem de coração tão bom certamente encontrará, na eternidade, a morada que sempre mereceu.</p>

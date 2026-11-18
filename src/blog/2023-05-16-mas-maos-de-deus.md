@@ -1,0 +1,11 @@
+---
+title: "Nas mãos de Deus"
+date: 2023-05-16T11:03:00.002-03:00
+autor: "José Ronaldo Dias Campos"
+categoria: "Revista virtual"
+original: "https://joseronaldodiascampos.blogspot.com/2023/05/mas-maos-de-deus.html"
+importado: true
+templateEngineOverride: md
+---
+
+<p>Eu sempre lutei para construir tudo o que tenho, que conquistei com muito trabalho, e posso garantir, sem enganar ou explorar ninguém, humildemente, que consegui até mais do que esperava. Deus foi bom comigo.</p><p>Sou o penúltimo filho de uma prole de nove irmãos, de família humilde, porém honrada, como sempre fiz questão de declarar, de confessar.</p><p>Em minha trajetória tive momentos difíceis, de decepções, que as vezes me obrigaram a recuar para poder avançar com segurança em busca da felicidade, misto de realidade e utopia. </p><p>Aprendi que no processo da vida o momento certo à consecução de determinado propósito também depende de fatores externos, exógenos, que só mais tarde se vai perceber, para poder compreender. </p><p>Se o que você projetou não aconteceu como  pretendido, como esperado, foi inexitoso, releve, não lastime, inocorreu porque não era o momento adequado à sua conquista. Persista, persiga o seu ideal, que está no mundo do dever ser, aproximando-o do real, do concreto, do palpável.</p><p>Vontade superior, inexplicável, que não se pode olvidar, orbita em torno de nós, de nossas vontades, restando certo que se era pra ser seu um dia será. </p><p>Já fui cético, procurando na ciência resposta pra tudo, ilusão superada com o passar dos tempos, após compreender que só a fé em Deus, como entidade superior, pode mitigar a nossa ignorância, trazendo a almejada paz espiritual. </p><p>Não sou de frequentar com assiduidade a igreja, de comungar, mas converso com Deus comumente, e isso me faz bem e traz a necessária compreensão das coisas inexplicáveis, revigorando-me para o dia seguinte, progressivamente.</p><p>Destarte, o  Desembargo será a minha última conquista, fechando com chave de ouro a luta por um judiciário mais justo, próximo do povo, que respeite o advogado e prestigie a dignidade da pessoa humana, como princípio fundamental do Direito, forte na Constituição Federal.</p><p>Estou de bem com a vida. Seja o que Deus quiser.</p>

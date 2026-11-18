@@ -1,0 +1,12 @@
+---
+title: "Concorrendo ao Desembargo  pelo Quinto Constitucional"
+date: 2023-05-10T18:11:00.003-03:00
+autor: "José Ronaldo Dias Campos"
+categoria: "Revista virtual"
+imagem: "/img/blog/2023/f5f8b62dab69e728.jpg"
+original: "https://joseronaldodiascampos.blogspot.com/2023/05/canditando-me-ao-desembargo-pelo-quinto.html"
+importado: true
+templateEngineOverride: md
+---
+
+<p></p><div><img loading="lazy" src="/img/blog/2023/f5f8b62dab69e728.jpg" /></div><br /><div>Sou candidato ao Desembargo, pelo “Quinto Constitucional”, com inscrição protocolizada no Conselho Seccional da OAB-PA em 10 de maio de 2023.</div><p></p><p>Síntese curricular para aferição:</p><p>Advogado há 40 anos ininterruptos militando nas Áreas Cível e Penal; mestre em Direitos Fundamentais e Relações Sociais pela UFPA, com especializações em Direito Civil, Processo Civil, Direito Penal e Processo Penal; professor aposentado da UFOPA, outrora UFPA; ex-professor da UNAMA/FIT/ISES e do ILES/ULBRA/STM; Consultor jurídico do estado do Pará de 1984/94; exerceu, pela via eletiva, sete mandatos na OAB, sendo 3 (três) na subseção Santarém, inclusive a presidência da entidade, 3 (três) mandatos de Conselheiro Seccional (Belém) e 1 (um) de Conselheiro Federal (Brasília), sem contar as suplências; membro da Comissão Especial de Direito Processual Civil da OAB Federal, no triênio 2019/2021; sócio correspondente da Academia Paraense de Letras Jurídicas e da Academia Paraense de Letras; Diretor Jurídico da Associação Comercial e Empresarial de Santarém (ACES) de 2017-2022; Sócio Fundador, Membro Efetivo e atual presidente do Instituto Histórico e Geográfico do Tapajós – IHGTap; Autor de artigos publicados em revistas jurídicas de circulação nacional, jornais locais e do livro “Reflexões, memórias e outros escritos”; agraciado com o Colar da Ordem do Mérito Advocatício – Grau Ouro, pela Seccional do Pará; recebeu do Conselho Federal da OAB, gestão do presidente Rubens Approbato Machado, comenda pelos relevantes serviços prestados à advocacia Brasileira; agraciado com o Título de Honra ao Mérito conferido pela Câmara Municipal de Santarém (Decreto Legislativo n° 038/93); Moções de Louvor n° 133/2002 e 73/2003, concedidas unanimemente pela Câmara Municipal de Santarém; Medalha em Homenagem aos 350 anos de Santarém/PA, concedida pelo município em junho de 2011; titular da revista virtual (http://joseronaldodiascampos.blogspot.com.br). Vida profissional tripartida: Advocacia/OAB/Magistério. </p><p><br /></p><p>Me. José Ronaldo Dias Campos</p>

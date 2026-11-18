@@ -94,14 +94,18 @@ if (buscaSite) {
       .map(
         (i) => `<li>
           <p class="eyebrow">${escapar(i.secao)}${i.data ? " · " + escapar(i.data) : ""}</p>
-          <h3><a href="${i.url}">${escapar(i.titulo)}</a></h3>
+          <h3><a href="${base}${i.url.replace(/^\//, "")}">${escapar(i.titulo)}</a></h3>
           <p>${escapar(trecho(i.texto, termo))}</p>
         </li>`
       )
       .join("");
   }
 
-  fetch("/busca.json")
+  // Endereço do índice (já com o prefixo da subpasta, quando houver)
+  const enderecoIndice = document.querySelector('link[rel="search-index"]').href;
+  const base = new URL(".", enderecoIndice).pathname;
+
+  fetch(enderecoIndice)
     .then((r) => r.json())
     .then((dados) => {
       indice = dados;

@@ -1,0 +1,11 @@
+---
+title: "Os Zumbis Urbanos"
+date: 2026-08-15T18:08:43.164-03:00
+autor: "José Ronaldo Dias Campos"
+categoria: "Revista virtual"
+original: "https://joseronaldodiascampos.blogspot.com/2026/08/os-zumbis-urbanos.html"
+importado: true
+templateEngineOverride: md
+---
+
+<p>Eles surgem quando a cidade adormece. Escondem-se nas sombras, refugiam-se em prédios abandonados e, não raro, fazem dos cemitérios o seu dormitório. São os zumbis urbanos.</p><p>Basta que uma casa permaneça vazia por alguns dias para que iniciem o saque. Não procuram dinheiro nem objetos de luxo. Levam tudo o que possa ser vendido para alimentar o vício. Da fiação elétrica às luminárias, das torneiras às portas, das janelas aos aparelhos de ar-condicionado, nada escapa aos olhos atentos desses predadores do patrimônio alheio.</p><p>Agem sem qualquer receio. A vergonha lhes é desconhecida; o medo da prisão, inexistente. A cadeia, para muitos deles, transformou-se em mero abrigo de passagem. Na rua ou atrás das grades, pouco importa. A dependência química dita as regras, e a busca incessante pela próxima pedra ou pela próxima dose torna-se a única razão de viver.</p><p>A confiança na impunidade é tamanha que retornam repetidas vezes ao mesmo imóvel. A cada visita, retiram um pouco mais, até que nada reste além das paredes nuas. O proprietário, quando finalmente retorna, encontra apenas o esqueleto daquilo que um dia foi sua casa.</p><p>Esse fenômeno revela mais do que a ação de delinquentes. Expõe a incapacidade do Estado de proteger o patrimônio do cidadão e a tranquilidade com que a criminalidade de pequeno vulto se instala no cotidiano das cidades, produzindo enormes prejuízos materiais e um sentimento permanente de insegurança</p><p>A recomendação, por mais dura que pareça, é simples: não deixe imóveis desocupados sem vigilância. Quando isso não for possível, invista em monitoramento permanente ou em empresa especializada. A prevenção quase sempre custa menos do que reconstruir aquilo que os zumbis urbanos são capazes de destruir em poucas horas.</p><p><strong></strong></p><p>Enquanto isso, eles continuam à espreita, aguardando apenas que mais uma casa fique silenciosa para iniciar um novo saque.</p><p><strong><br /></strong></p>

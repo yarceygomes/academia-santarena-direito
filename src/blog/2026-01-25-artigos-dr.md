@@ -1,0 +1,12 @@
+---
+title: "A difícil arte de dirigir em Santarém"
+date: 2026-01-25T08:12:00.007-03:00
+autor: "José Ronaldo Dias Campos"
+categoria: "Revista virtual"
+imagem: "https://oimpacto.com.br/wp-content/uploads/2025/07/jose-ronaldo-campos-2.jpg"
+original: "https://joseronaldodiascampos.blogspot.com/2026/01/artigos-dr.html"
+importado: true
+templateEngineOverride: md
+---
+
+<p> <img loading="lazy" alt="" decoding="async" fetchpriority="high" sizes="(max-width: 800px) 100vw, 800px" src="https://oimpacto.com.br/wp-content/uploads/2025/07/jose-ronaldo-campos-2.jpg" srcset="https://oimpacto.com.br/wp-content/uploads/2025/07/jose-ronaldo-campos-2.jpg 800w, https://oimpacto.com.br/wp-content/uploads/2025/07/jose-ronaldo-campos-2-300x167.jpg 300w, https://oimpacto.com.br/wp-content/uploads/2025/07/jose-ronaldo-campos-2-768x427.jpg 768w" /></p><div>Dirigir em Santarém não é tarefa fácil: é exercício diário de paciência. Imperícia e imprudência andam de mãos dadas, como se o trânsito fosse um parque de diversões sem regras.<br />Condutores seguem ao telefone, ignoram a sinalização e conduzem sem a devida atenção, olvidando a lei da física. Quem deseja chegar inteiro ao destino precisa dirigir por si e pelos outros, essência da direção defensiva. Some-se a isso a embriaguez ao volante, presença recorrente e perigosa, verdadeiro retrato do caos.<br />Multas, câmeras e blitzes pouco resolvem. O problema é cultural. Falta educação no trânsito, falta empatia, falta noção de coletividade. Muitos motoristas não sabem dirigir; o pedestre, por vezes, também não colabora. A ignorância não se esconde. E, ao fim, de um modo ou de outro, alguém sempre termina, sem esperar, envolvido em acidente. Só Deus na causa.<br />Não gosto de buzinar. Mas, por vezes, é o único recurso para evitar mal maior. Abusa-se da paciência alheia como se ela fosse infinita. E, se alguém se incomodar, paciência: conflitos no trânsito são faíscas perigosas, capazes de gerar situações inesperadas  e com graves consequências, amigo leitor.<br />Quando o acidente acontece, como já aconteceu comigo, mesmo com seguro, o prejuízo é evidente. Não há como escapar do dissabor do sinistro, do desgaste do embate e da burocracia administrativa que se segue.<br />Dirigir bem, por aqui, é mais do que obedecer às regras: é ato de civilidade, empatia e autopreservação. Relevar os erros alheios, evitar o confronto e praticar a direção defensiva não é sinal de fraqueza, mas de sabedoria. A sua paz vale mais do que qualquer razão.</div>

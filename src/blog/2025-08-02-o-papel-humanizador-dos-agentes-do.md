@@ -1,0 +1,11 @@
+---
+title: "O papel humanizador do juiz e demais agentes do Direito"
+date: 2025-08-02T14:23:00.005-03:00
+autor: "José Ronaldo Dias Campos"
+categoria: "Revista virtual"
+original: "https://joseronaldodiascampos.blogspot.com/2025/08/o-papel-humanizador-dos-agentes-do.html"
+importado: true
+templateEngineOverride: md
+---
+
+<p>O processo não é apenas um conjunto de atos formais, ritos e prazos — é, antes de tudo, a representação da vida em conflito. Por trás de cada número, que serve à estatística, há pessoas, histórias, dores, esperanças. Mais que isso: há um clamor por justiça que transcende a letra fria da lei.</p><p>O juiz, como condutor da relação processual, precisa ser mais que um técnico do Direito. É imprescindível que possua sensibilidade social e empatia jurídica. Isso não significa ceder à emoção, mas compreender que a aplicação da norma ao caso concreto exige diálogo com a realidade dos autos — com o chamado Direito achado na rua, expressão que simboliza a construção de uma ordem jurídica viva, comprometida com os clamores populares e com a concretização da dignidade humana.</p><p>Essa lição já foi ensinada por grandes nomes do pensamento jurídico. Piero Calamandrei via o processo como uma ponte entre o Direito e a vida. Para ele, “o processo é o caminho para alcançar a justiça, que não pode ser uma abstração jurídica, mas uma resposta concreta aos conflitos humanos”. Francesco Carnelutti, por sua vez, dizia que “o processo é dor”, pois nele se tenta curar uma ferida social.</p><p>Não basta ao juiz apenas saber julgar; é preciso interpretar, compreender, acolher. O julgador indiferente ao drama humano torna-se insensível à justiça que deveria promover. Por isso, é preciso reconhecer: o processo tem vida, tem sentimento, sangra, chora — e só cumprirá sua função se for conduzido com urbanidade, escuta e sensibilidade.</p><p>Essa postura é ainda mais necessária no Brasil, onde desigualdades e vulnerabilidades sociais afloram nos litígios. O formalismo excessivo, sem o devido cuidado com a pessoa envolvida, pode transformar a jurisdição em instrumento de perpetuação de injustiças — quando deveria ser o contrário.</p><p>Portanto: que o Direito não se afaste da vida. Que o juiz não se afaste da pessoa. Que o processo não se afaste da justiça.</p>

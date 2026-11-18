@@ -1,0 +1,11 @@
+---
+title: "Taxa de lixo versus IPTU"
+date: 2023-02-09T17:59:00.007-03:00
+autor: "José Ronaldo Dias Campos"
+categoria: "Revista virtual"
+original: "https://joseronaldodiascampos.blogspot.com/2023/02/taxa-de-lixo-versus-iptu.html"
+importado: true
+templateEngineOverride: md
+---
+
+<p>Não sou contra a cobrança da coleta e transporte do lixo urbano em Santarém, tampouco quero polemizar, confundir taxa com imposto, tributos distintos, evidentemente, mas tão somente promover algumas ponderações objetivando ajustar o procedimento fiscal e evitar distorções, injustiça ao contribuinte. </p><p>A taxa de lixo, outrora, pelo que recordo, era cobrada no mesmo boleto do IPTU, por economicidade, prática permitida pelos doutos tribunais, como ocorria com a iluminação pública, facilitando a vida dos munícipes.</p><p>Entretanto, neste ano, sem debate popular, para surpresa do povo, surge a notícia da cobrança da taxa de lixo em boleto próprio, distinto do IPTU, com encurtada data de vencimento e valor exorbitante, conglobando dois exercícios fiscais (2022/23), onerando o já escasso orçamento familiar.</p><p>Não se tem informação, o que revolta o contribuinte, dos critérios para fixação do escorchante valor do serviço cobrado por cada unidade residencial,  contemporaneamente ao IPTU, quando se sabe que parte considerável das moradias não é  servida pela coleta de lixo, a exemplo de Alter do Chão, só para exemplificar, sem falar nos terrenos sem edificações, em locais de difícil acesso etc, todos taxados indistintamente.</p><p>Outro ponto relevante olvidado foi a falta de abertura de oportunidade e local para o contribuinte impugnar a cobrança ou o seu respectivo valor, antes de fixar prazo fatal para pagamento, sem dar chance de se promover a necessária e tempestiva correção de eventual erro cometido no lançamento do “seminovo” tributo, digamos assim.</p><p>São tantas as inquietações, caríssimo leitor, que deixo aberto o espaço para a inserção de eventuais questionamentos, sempre com o intuito de somar, de ajudar, de aprimorar o sistema tributário municipal.</p><p>Quem sabe o Ministério Público e a OAB, Subseção Santarém, assimilem os reclamos e intercedam em prol do interesse coletivo apontado. </p><p>Agora são três boletos para pagar ao município no início do ano: dois relativos às taxas de lixo e um de IPTU.</p>

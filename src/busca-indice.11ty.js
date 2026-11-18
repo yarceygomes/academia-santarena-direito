@@ -19,7 +19,8 @@ export async function render({ collections, cadeiras }) {
         secao: nome,
         data: dataBR.format(p.date),
         autor: p.data.autor || "",
-        texto: semHtml(await p.templateContent).slice(0, 4000),
+        // Posts importados são muitos: guarda só o começo do texto para o índice não ficar pesado
+        texto: semHtml(await p.templateContent).slice(0, p.data.importado ? 400 : 4000),
       });
     }
   }

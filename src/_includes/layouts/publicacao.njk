@@ -18,7 +18,7 @@ layout: layouts/base.njk
     </div>
   </header>
 
-  {% if imagem %}
+  {% if imagem and not importado %}
   <figure class="post__cover container container--wide">
     <img src="{{ imagem }}" alt="{{ imagemDescricao or '' }}">
   </figure>
@@ -28,6 +28,13 @@ layout: layouts/base.njk
     <div class="post__body">
       {{ content | safe }}
     </div>
+
+    {% if original %}
+    <aside class="post__source">
+      Texto de <strong>{{ autor }}</strong>, publicado originalmente em sua
+      <a href="{{ original }}" target="_blank" rel="noopener">revista virtual</a>.
+    </aside>
+    {% endif %}
 
     {% if fonte %}
     <aside class="post__source">

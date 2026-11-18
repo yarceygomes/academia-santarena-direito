@@ -1,5 +1,6 @@
 // Configuração do Eleventy: transforma os arquivos de src/ no site pronto em _site/.
 import markdownIt from "markdown-it";
+import { HtmlBasePlugin } from "@11ty/eleventy";
 
 const meses = new Intl.DateTimeFormat("pt-BR", {
   day: "numeric",
@@ -21,6 +22,9 @@ const md = markdownIt({ html: true, linkify: true });
 
 export default function (eleventyConfig) {
   eleventyConfig.addFilter("markdown", (texto = "") => md.render(texto));
+
+  // Corrige os links quando o site é publicado numa subpasta (ex.: GitHub Pages)
+  eleventyConfig.addPlugin(HtmlBasePlugin);
 
   // O painel /admin é copiado como está, sem passar pelos modelos
   eleventyConfig.ignores.add("src/admin/**");
@@ -87,6 +91,7 @@ export default function (eleventyConfig) {
 
   return {
     dir: { input: "src", output: "_site", includes: "_includes", data: "_data" },
+    pathPrefix: process.env.PATH_PREFIX || "/",
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
   };

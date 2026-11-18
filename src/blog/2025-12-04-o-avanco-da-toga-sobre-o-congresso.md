@@ -1,0 +1,11 @@
+---
+title: "O Avanço da Toga sobre o Congresso"
+date: 2025-12-04T08:33:00.004-03:00
+autor: "José Ronaldo Dias Campos"
+categoria: "Revista virtual"
+original: "https://joseronaldodiascampos.blogspot.com/2025/12/o-avanco-da-toga-sobre-o-congresso.html"
+importado: true
+templateEngineOverride: md
+---
+
+<p> O Avanço da Toga sobre o CongressoA preocupação exposta é pertinente e ecoa um debate recorrente na teoria constitucional contemporânea. O sistema de freios e contrapesos, concebido para equilibrar as funções estatais e evitar a supremacia de um Poder sobre os demais, vem apresentando tensões visíveis quando o Supremo Tribunal Federal passa a ocupar espaços tradicionalmente reservados ao Legislativo.</p><p>Nos últimos anos, decisões do STF — muitas delas proferidas em sede de controle concentrado, medidas cautelares monocráticas ou interpretações expansivas da Constituição — têm sido percebidas pela opinião pública como intervenções atípicas na esfera legiferante, produzindo efeitos práticos equivalentes à atuação legislativa. Em paralelo, a relativa paralisia, fragmentação ou mesmo a omissão deliberada do Congresso Nacional em temas sensíveis abre margem para que o Judiciário preencha o vácuo normativo.</p><p>Daí decorre a inquietação: quando o equilíbrio se rompe, instala-se risco de assimetria entre os Poderes e de erosão da legitimidade democrática. Não se trata de negar o papel contramajoritário e de vanguarda do STF, mas de reafirmar que a harmonia republicana, prevista no art. 2º da Constituição, pressupõe limites recíprocos, respeito às funções típicas e diálogo institucional.</p><p>O ponto central da crítica, portanto, é a percepção de que o Judiciário avança porque o Legislativo recua, comprometendo a arquitetura original do constitucionalismo republicano. O alerta é válido e merece reflexão, sobretudo para evitar que exceções se tornem regra e que a excepcionalidade da jurisdição constitucional se converta em governo de juízes.</p><p>A blindagem decorrente da surpreendente decisão monocrática que retirou do Senado a prerrogativa de processar pedidos de impeachment de ministros da Corte foi o estopim desta reflexão.</p><p>Sem freios e sem limites, o Supremo vai acabar atropelando o Congresso.</p>

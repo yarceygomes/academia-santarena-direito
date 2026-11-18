@@ -1,0 +1,11 @@
+---
+title: "Trocando a Beca pela Toga"
+date: 2025-06-07T14:51:00.002-03:00
+autor: "José Ronaldo Dias Campos"
+categoria: "Revista virtual"
+original: "https://joseronaldodiascampos.blogspot.com/2025/06/quinto-constitucional-merecimento-e.html"
+importado: true
+templateEngineOverride: md
+---
+
+<p>Permitam-me iniciar esta breve exposição reafirmando a essência do quinto constitucional como um dos mais significativos mecanismos de pluralização e democratização do Poder Judiciário.</p><p>Instituído pela Constituição Federal de 1934, o quinto nasceu com o propósito de trazer aos tribunais o olhar plural e a experiência vivida do advogado e do membro do Ministério Público. Desde então, mesmo com as mudanças constitucionais de 1937, 1946, 1967/69 e 1988, esse instituto foi preservado — não como concessão, mas como direito da advocacia e do Ministério Público.</p><p>A atual Constituição, em seu artigo 94, estabelece que o advogado deve possuir “notável saber jurídico e reputação ilibada” para compor os tribunais, como expressão do binômio que fundamenta essa escolha: conhecimento e merecimento.</p><p>Ao interpretarmos esse dispositivo pelos métodos literal, histórico, sistemático e teleológico, é possível concluir que o notório merecimento — expressão consagrada nos textos constitucionais anteriores — permanece como elemento essencial e inseparável do notável saber jurídico.</p><p>É nesse espírito que se impõe a responsabilidade da OAB. A vaga é da advocacia e não pode ser instrumentalizada ou submetida a pressões externas. O processo de escolha é da Ordem. A indicação é da advocacia — não do Executivo, tampouco do Judiciário, ou de qualquer grupo alheio à missão institucional que aqui nos une.</p><p>Senhoras e senhores advogados, estamos diante de um momento que transcende escolhas pessoais. Trata-se da afirmação da nossa autonomia, da defesa das prerrogativas e do compromisso com uma Justiça mais plural, mais humana e mais conectada com a realidade social.</p><p>Que a toga do novo desembargador da advocacia abrigue, sob o tecido da imparcialidade, um coração de advogado — pulsante, íntegro e comprometido com a Constituição, com o Direito e com a verdadeira Justiça.</p><p>Quem sabe, desta vez, a vaga seja de Santarém — a maior e mais antiga subseção do Pará, ou melhor dizendo, do interior da Amazônia.</p><p>Me. José Ronaldo Dias Campos</p>

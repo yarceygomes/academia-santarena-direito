@@ -1,0 +1,12 @@
+---
+title: "A complexa linguagem da lei"
+date: 2025-11-09T10:49:00.001-03:00
+autor: "José Ronaldo Dias Campos"
+categoria: "Revista virtual"
+imagem: "https://oimpacto.com.br/wp-content/uploads/2025/07/ronaldo-cmapos.jpg"
+original: "https://joseronaldodiascampos.blogspot.com/2025/11/a-complexa-linguagem-da-lei.html"
+importado: true
+templateEngineOverride: md
+---
+
+<p> <img loading="lazy" alt="" decoding="async" fetchpriority="high" sizes="(max-width: 800px) 100vw, 800px" src="https://oimpacto.com.br/wp-content/uploads/2025/07/ronaldo-cmapos.jpg" srcset="https://oimpacto.com.br/wp-content/uploads/2025/07/ronaldo-cmapos.jpg 800w, https://oimpacto.com.br/wp-content/uploads/2025/07/ronaldo-cmapos-300x167.jpg 300w, https://oimpacto.com.br/wp-content/uploads/2025/07/ronaldo-cmapos-768x427.jpg 768w" /></p><div><div>Por José Ronaldo Dias Campos</div><div><br /></div><div><p>As leis são complexas, escritas em vernáculo elitizado, como se fossem dirigidas apenas aos homens cultos, iniciados no mister jurídico. O povo, natural destinatário da norma, fica do lado de fora, olhando pelas frestas de um código que não compreende, mas que precisa obedecer.</p><p>Como interpretar algo que não se entende? Como exigir obediência a um comando cuja leitura não lhe permite acesso? O cidadão comum, diante do sistema jurídico, é como quem tenta decifrar um enigma latinizado — e ainda sob pena de sanção, se errar a tradução e malferir o comando normativo.</p><p>Dizem os doutos que “ninguém pode alegar ignorância da lei”. Bonito preceito. Mas experimente explicá-lo a quem mal sabe ler. Como exigir conhecimento do que o próprio Estado redige de modo cifrado?</p><p>A lei, sempre genérica e abstrata, que deveria servir ao povo, parece escrita contra ele — não por maldade, mas por hábito, costume, tradição. Há séculos, os legisladores falam do andar de cima, sem clareza comunicativa, confundindo até mesmo o Supremo Tribunal Federal, em sua composição plena, que não raro empata (5 x 5) em seus vereditos, deixando o voto de minerva ao presidente da cúpula do Judiciário nacional.</p><p>O jurista, por hábito, orgulha-se da forma rebuscada; o cidadão, por medo, resigna-se à opacidade do texto. E assim seguimos, entre o erudito e o analfabeto, com uma Justiça que escreve em latim a quem soletra na leitura.</p><p>Talvez um dia a lei aprenda a falar a língua do povo. Nesse dia, quem sabe, o cidadão também aprenda a acreditar na lei — e, por conseguinte, na Justiça.</p></div></div>

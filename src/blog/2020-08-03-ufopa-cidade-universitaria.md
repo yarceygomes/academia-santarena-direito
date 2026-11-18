@@ -1,0 +1,12 @@
+---
+title: "UFOPA: cidade universitária"
+date: 2020-08-03T15:36:00.002-03:00
+autor: "José Ronaldo Dias Campos"
+categoria: "Revista virtual"
+imagem: "/img/blog/2020/dfe722563540626f.jpg"
+original: "https://joseronaldodiascampos.blogspot.com/2020/08/ufopa-cidade-universitaria.html"
+importado: true
+templateEngineOverride: md
+---
+
+<div>Fonte: Reitoria da Ufopa via Watsaap<br /><ul><li>A consolidação da UFOPA, enquanto cidade universitária na Unidade Tapajós, está em andamento. Está em análise, na Câmara de Vereadores de Santarém, um projeto de desafetação de trechos de via públicas (marcados em vermelho no mapa).</li><li>✅ A desafetação dos trechos de vias é uma contrapartida do Município, frente à doação de um terreno da UFOPA para a Prefeitura de Santarém. A Universidade vai repassar um terreno para permitir a regularização fundiária de moradores da Rua Santana (foto). Há famílias com mais de 40 anos na área. Tal doação já foi aprovada pelo Conselho Superior de Administração (CONSAD). O terreno a ser doado já foi desmembrado do terreno da UFOPA. O termo de doação já está em elaboração, prevendo a desafetação de alguns trechos de vias públicas no entorno do Campus Tapajós;</li><li>✅ Há necessidade de aumentar a segurança dos nossos acadêmicos. Uma ação será termos uma guarita da Ufopa mais próxima do ponto do ônibus na Rua 24 de Outubro; </li><li>✅ Não estamos falando de "fechamento de vias". A desafetação destes trechos de vias, que ficam entre terrenos que já são da UFOPA, possibilita que a Universidade possa fazer investimentos nas vias, inclusive estendendo sua segurança patrimonial para estas áreas;</li><li>✅ Há o compromisso de não prejudicar a mobilidade no bairro Salé. Por isso, em articulação com Prefeitura e Câmara Municipal, foi acertada a pavimentação da Rua Santana, que já está sendo concluída. Também há o compromisso de trazermos um maior fluxo de linhas de ônibus para o bairro, além da pavimentação da Avenida Tapajós. Também há a possibilidade de que seja disponibilizada uma parte do terreno do Restaurante Universitário da UFOPA para a construção de um terminal de ônibus na esquina da Rua 24 de Outubro com a Rua Raimundo Fona. Hoje também foi feito o compromisso, por parte da Reitoria, de se buscar investimentos para melhorias na Rua Maracangalha, próximo à praia.</li><li><img loading="lazy" src="/img/blog/2020/dfe722563540626f.jpg" /></li><li><img loading="lazy" src="/img/blog/2020/fa6c5543310d4857.jpg" /></li></ul></div>

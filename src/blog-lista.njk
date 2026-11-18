@@ -1,0 +1,33 @@
+---
+layout: layouts/pagina.njk
+title: Blog
+secao: Publicações
+descricao: Crônicas, memórias, artigos e reflexões, incluindo a revista virtual do presidente José Ronaldo Dias Campos.
+pagination:
+  data: collections.blog
+  size: 24
+  alias: itens
+permalink: "/blog/{% if pagination.pageNumber > 0 %}pagina/{{ pagination.pageNumber + 1 }}/{% endif %}"
+---
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="muted">
+        {{ collections.blog.length }} publicações · página {{ pagination.pageNumber + 1 }} de {{ pagination.pages.length }}
+      </p>
+      <a href="/busca/" class="more">Buscar por tema ou palavra →</a>
+    </div>
+
+    <div class="entries">
+      {% for item in itens %}{% include "cartao.njk" %}{% endfor %}
+    </div>
+
+    {% if pagination.pages.length > 1 %}
+    <nav class="pager" aria-label="Páginas do blog">
+      {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}" class="btn btn--small">← Mais recentes</a>{% else %}<span></span>{% endif %}
+      <span class="muted">Página {{ pagination.pageNumber + 1 }} de {{ pagination.pages.length }}</span>
+      {% if pagination.href.next %}<a href="{{ pagination.href.next }}" class="btn btn--small">Mais antigas →</a>{% else %}<span></span>{% endif %}
+    </nav>
+    {% endif %}
+  </div>
+</section>
