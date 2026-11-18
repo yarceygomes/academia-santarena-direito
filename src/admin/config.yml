@@ -183,6 +183,40 @@ collections:
               - { label: "Título", name: titulo, widget: string }
               - { label: "Texto", name: texto, widget: text }
 
+      - name: patronos
+        label: Patronos (biografias)
+        file: src/_data/patronos.json
+        fields:
+          - label: Patronos
+            name: lista
+            widget: list
+            allow_add: false
+            summary: "{{fields.numero}} · {{fields.nome}}"
+            fields:
+              - { label: "Cadeira", name: numero, widget: number, value_type: int }
+              - { label: "Nome", name: nome, widget: string }
+              - { label: "Conhecido como", name: conhecidoComo, widget: string, required: false }
+              - { label: "Nome completo", name: nomeCompleto, widget: string, required: false }
+              - { label: "Atividade", name: atividade, widget: string, required: false, hint: "Ex.: Advogado e professor" }
+              - { label: "Nascimento", name: nascimento, widget: string, required: false, hint: "Ex.: 25 de junho de 1920, Santarém (PA)" }
+              - { label: "Falecimento", name: falecimento, widget: string, required: false }
+              - { label: "Apresentação", name: resumo, widget: text, required: false }
+              - { label: "Trajetória", name: trajetoria, widget: list, required: false }
+              - { label: "Obras", name: obras, widget: list, required: false }
+              - { label: "Foto", name: foto, widget: image, required: false, hint: "Publique só fotos com autorização de quem detém os direitos." }
+              - { label: "Crédito da foto", name: fotoCredito, widget: string, required: false }
+              - { label: "Link da fonte da foto", name: fotoFonte, widget: string, required: false }
+              - label: Fontes
+                name: fontes
+                widget: list
+                required: false
+                summary: "{{fields.titulo}}"
+                fields:
+                  - { label: "Título", name: titulo, widget: string }
+                  - { label: "Link", name: url, widget: string }
+              - { label: "Situação", name: situacao, widget: select, options: [{ label: "Biografia completa", value: completo }, { label: "Parcial", value: parcial }, { label: "Em elaboração", value: em-elaboracao }] }
+              - { label: "Observação", name: nota, widget: text, required: false }
+
       - name: galeria
         label: Galeria de fotos
         file: src/_data/galeria.json

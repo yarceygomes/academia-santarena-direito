@@ -1,0 +1,52 @@
+---
+title: "Aniversário da Constituição Federal - 25 anos"
+date: 2013-10-05T16:11:00.003-03:00
+autor: "José Ronaldo Dias Campos"
+categoria: "Revista virtual"
+imagem: "https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-ash3/p480x480/562927_558269184245846_1089026649_n.jpg"
+original: "https://joseronaldodiascampos.blogspot.com/2013/10/aniversario-da-constituicao-federal-25.html"
+importado: true
+templateEngineOverride: md
+---
+
+<div>
+<div>
+<div>
+<img loading="lazy" alt="Foto: No dia 5 de outubro, a Constituição faz aniversário. Promulgada em 1988, trouxe inúmeros avanços sociais e, por isso, foi chamada de Constituição Cidadã. Nesses 25 anos, a Carta Magna recebeu 74 emendas do Congresso, como a recente PEC das Domésticas. Saiba mais sobre esse assunto na página do Senado Federal: http://bit.ly/19l9T21." src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-ash3/p480x480/562927_558269184245846_1089026649_n.jpg" /></div>
+<div>
+No dia 5 de outubro, a Constituição faz aniversário. Promulgada em 1988, trouxe inúmeros avanços sociais e, por isso, foi chamada de Constituição Cidadã. Nesses 25 anos, a Carta Magna recebeu 74 emendas do Congresso, como a recente PEC das Domésticas. Saiba mais sobre esse assunto na página do Senado Federal: <a href="http://www.facebook.com/l.php?u=http%3A%2F%2Fbit.ly%2F19l9T21&amp;h=pAQH8uzIg&amp;enc=AZN_nZJg2nviMvtpczMuoOqbyhWIpoJbOr8SYDzeKCbkR2SXVdTR_TySmOMpMGKeOSg-2VJob7IigZF6EdXMyB74FoWYxrfwJw4snKI3gWPy2OKrycp8jUjRX0D4siXUtElHtDZ-U8okKuJhNJ5_EhMs&amp;s=1" rel="nofollow nofollow" target="_blank">http://bit.ly/19l9T21</a>.<br />
+<br />
+Texto do Ministro do STF Gilmar Mendes<br />
+<br />
+<div>
+Neste sábado, dia 5 de outubro, nossa Constituição Federal celebra bodas de prata. Se refletíssemos mais sobre a história constitucional do Brasil, haveríamos de valorizar nosso texto constitucional com a ênfase devida, não apenas por atributos óbvios como longevidade, robustez, abrangência, mas também por sua evidente significância para a bem-sucedida reorganização sociopolítica do País. Registre-se que essa data quase coincide com outra efeméride marcante do constitucionalismo mundial, a promulgação da Constituição austríaca de 1º de outubro de 1920, que trouxe contribuições importantes para o desenvolvimento do Estado Constitucional, como, <em>v.g.</em>, a positivação da jurisdição constitucional, obra na qual teve participação marcante o gênio de Kelsen.</div>
+<div>
+O que pode parecer mero truísmo para nações cujo arcabouço constitucional foi consolidado ao longo de séculos, a nós se afigura conquista sem precedentes. Hoje, não mais nos sobressalta qualquer temor sobre a estabilidade de nossas instituições, e a democracia consolidou-se como um valor em si mesmo. Há três décadas, um céu de dúvidas e de receios toldava nossos horizontes, dificultando projetos, atrapalhando avanços, bloqueando investimentos.</div>
+<div>
+Desde o nascedouro, a Constituição de 1988 se diferencia por ser também produto de movimentos sociais generalizados e intensos, gestados, sob incômoda pressão ditatorial, ao longo de duas décadas. Daí o colorido libertário, a ênfase nas liberdades individuais, nos indefectíveis direitos fundamentais. Nada obstante, é de ressaltar o que a mim parece ser o maior mérito dessa Constituinte: o concerto político que catalisou a reivindicação popular para assentar as bases da construção democrática na Carta de 1988, como um casamento de valores e instituições democráticas<a href="file:///C:/Users/leonardo.lellis/Downloads/#_ftn1_7253" name="_ftnref1_7253" target="_blank">[1]</a>.</div>
+<div>
+Não é demais ressaltar que tal ênfase em uma agenda social, estampada no texto constitucional que hoje se celebra, é a constitucionalização do que Peter Häberle chama de “desejos de utopia”. Daí o surgimento de organizações sociais envolvidas criticamente na realização dos valores proclamados solenemente no texto constitucional, militando para a verdadeira obtenção destas <em>esperanças normatizadas</em><a href="file:///C:/Users/leonardo.lellis/Downloads/#_ftn2_7253" name="_ftnref2_7253" target="_blank">[2]</a> Eventuais críticas quanto ao detalhamento do texto constitucional sucumbem diante da certeza de que a extensa proclamação de direitos pela Carta estimulou movimentos de representação da sociedade.</div>
+<div>
+Ao discorrer sobre a continuidade do poder constituinte originário, Zagrebelsky, enfatiza que “as constituições do nosso tempo miram o futuro, mantendo-se firmes ao passado, ou seja, ao patrimônio da experiência histórico-constitucional que queiram preservar e enriquecer. Passado e futuro ligam-se a uma única linha e, como os valores do passado orientam a busca do futuro, assim também as exigências do futuro obrigam a uma contínua pontualização do patrimônio constitucional que vem do passado e a uma constante redefinição dos princípios de convivência constitucional”.<a href="file:///C:/Users/leonardo.lellis/Downloads/#_ftn3_7253" name="_ftnref3_7253" target="_blank">[3]</a> Por aqui, as reformas mais significativas foram por certo impulsionadas pelo motor da história e vieram, destarte, a reboque das transformações naturais de um povo que continua almejando alcançar os atributos naturais decorrentes da própria soberania. Um povo que deseja evoluir, mas não deixando para trás sua principal conquista: a democracia.</div>
+<div>
+Fato incontestável é que a Constituição de 1988 tem demonstrado força normativa capaz de regular, com folga, situações extremas — e em ambiente de acentuada tensão. É de lembrar, por exemplo, que a Constituição regulou de forma plena e sem sobressaltos processo de <em>impeachment</em> sofrido por Presidente da República — e mal se iniciava o período democrático, aquelas haviam sido as primeiras eleições livres em trinta anos! —; a hiperinflação que aniquilava qualquer planejamento econômico e prejudicava sobretudo os mais pobres; além de crises econômicas internacionais e gravíssimos escândalos de corrupção.</div>
+<div>
+Foi, sim, a crença na Constituição, a determinação da sociedade em orientar a própria conduta de acordo com a ordem legalmente estabelecida que pôs fim à transitividade. Enfim, o cidadão brasileiro entendeu que o caminho para a concretização de direitos teria – e tem! – de ser o processo democrático. Nossa Constituição Federal garante os pressupostos para que essa democracia plena seja atingida, sem a necessidade de deflagração de arranjos constitucionais inéditos para sua realização.</div>
+<div>
+Em síntese, neste quarto de século, não houve perturbação externa ou crise interna, qualquer mínimo ou máximo percalço institucional que não tenha sido resolvido à luz das balizas normativas vigentes. Destaquemos reformas de peso como a da Previdência e da Administração, bem como a verdadeira revolução sem armas que foi o Plano Real, para afirmar com tranquilidade o sucesso de nossos marcos institucionais.</div>
+<div>
+A pavimentação dessa normalidade institucional deve-se ao empenho do Constituinte de estabelecer parâmetros legais compatíveis com a realidade brasileira. Outro aspecto muito positivo foi o alargamento da estrutura de Poder — agora poliárquica — que, ao incluir o Ministério Público e prestigiar a atuação da imprensa, por exemplo, ampliou os canais representativos da cidadania. De outra parte, a extensa proclamação de direitos estimulou a participação de variados segmentos da sociedade em busca da materialização das promessas constitucionais, num bem-vindo círculo virtuoso que até hoje se retroalimenta e continua a nos fazer avançar. As reformas constitucionais, muitas delas extremamente relevantes, têm sido implementadas pela via das Emendas Constitucionais, sem apelo a qualquer fórmula aventureira.</div>
+<div>
+Nesses 25 anos, bem testados os institutos políticos, o Estado de Direito tem se mostrado cada vez mais fortalecido, dando respaldo à realização dos compromissos assumidos à vista do mais amplo catálogo de direitos fundamentais existente no mundo, cuja efetividade vem sendo garantida constitucionalmente mediante mecanismos judiciais consistentes, a exemplo do controle de omissão legislativa.</div>
+<div>
+Aliás, como órgão responsável pela higidez do texto constitucional, o Supremo tem atendido a essa missão de forma arrojada, assumindo coerentemente a responsabilidade de aplicar a Constituição de maneira a tornar concretos os direitos e garantias fundamentais constitucionalizados em 1988.</div>
+<div>
+A Corte também vem se colocando em situação de vanguarda ao enfrentar com intrepidez o desafio de dirimir controvérsias que ainda dividem tribunais longevos, por versarem sobre temas ultrassensíveis, como o uso de células-troncos ou o aborto de anencéfalos. Quando se moderniza, favorecendo a transparência e o acesso dos jurisdicionados, ou quando franqueia a palavra à sociedade — como acontece nas audiências públicas e nos casos da colaboração voluntária dos<em>amici curiae</em> — o Supremo acentua o viés pedagógico inerente à jurisdição constitucional, sinalizando, ademais, que a interpretação e aplicação da Carta são tarefas cometidas a todos os Poderes, bem como a qualquer cidadão.</div>
+<div>
+Daí por que se afirma que a Constituição é construção diária, um “projeto” (<em>Entwurf</em>) em contínuo desenvolvimento, cujo maior desafio vem a ser a rápida e definitiva incorporação dos direitos fundamentais ao patrimônio jurídico dos cidadãos. Por outro lado, engana-se quem aposta no concerto democrático como fim em si mesmo. Em última análise, mais relevante há de ser o exercício diário e consciente da cidadania — símbolo da aliança que mantém a Constituição. Nesse trajeto, temos dado sobejas provas de maturidade. A Constituição de 1988 forjou-se sob a força simbólica do recomeço. Vinte e cinco anos depois de promulgada, os dividendos econômicos e políticos da segurança institucional advinda com a Carta são de fato inquestionáveis.</div>
+<br />
+<div>
+É preciso dar continuidade a esse projeto sem concessões a concepções aventureiras ou a propostas miríficas, como constituintes exclusivas ou não, que poderão comprometer, definitivamente, o capital institucional acumulado com muito sacrifício. Devemos dizer <em>sim</em> às inovações e aos experimentos institucionais que buscam responder às complexidades de uma sociedade submetida a empreitadas de risco e um claro <em>não</em> a propostas de aventuras lastreadas em misto de despreparo e motivações políticas de curto prazo.</div>
+</div>
+</div>
+</div>

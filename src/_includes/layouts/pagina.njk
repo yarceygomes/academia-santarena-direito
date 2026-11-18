@@ -1,12 +1,12 @@
 ---
 layout: layouts/base.njk
 ---
-<section class="page-head">
+<header class="page-head">
   <div class="container">
-    {% if secao %}<p class="eyebrow">{{ secao }}</p>{% endif %}
+    {% if secao %}<p class="kicker">{{ secao }}</p>{% endif %}
     <h1>{{ title }}</h1>
     {% if descricao %}<p class="page-head__lead">{{ descricao }}</p>{% endif %}
   </div>
-</section>
+</header>
 
 {{ content | safe }}

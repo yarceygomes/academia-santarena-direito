@@ -1,100 +1,136 @@
 ---
 layout: layouts/base.njk
 ---
-<section class="banner">
-  <img src="/img/banner-posse.jpg" width="1672" height="941"
-       alt="Membros da Academia Santarena de Direito com becas verdes e medalhas, reunidos em foto oficial ao lado do brasão e do nome da Academia: Santarém, Pará, Baixo Amazonas.">
-</section>
-
-<section class="intro">
-  <div class="container intro__inner">
-    <p class="motto">{{ site.lema }}</p>
-    <h1>{{ site.slogan }}</h1>
-    <p class="intro__place">{{ site.local }}</p>
-    <div class="intro__actions">
-      <a href="/academia/" class="btn">Conheça a Academia</a>
-      <a href="/cadeiras/" class="btn btn--ghost">Cadeiras e patronos</a>
-    </div>
-  </div>
-</section>
-
-<section class="stats">
-  <div class="container stats__grid">
-    <div><strong>17.08.2026</strong><span>Fundação</span></div>
-    <div><strong>{{ cadeiras.cadeiras.length }}</strong><span>Acadêmicos fundadores</span></div>
-    <div><strong>{{ site.cadeirasEstatuto }}</strong><span>Cadeiras no Estatuto</span></div>
-    <div><strong>UNAMA</strong><span>Sede em Santarém</span></div>
-  </div>
-</section>
-
-<section class="section">
+<section class="hero">
   <div class="container">
-    <div class="section-head">
-      <div>
-        <p class="eyebrow">Notícias</p>
-        <h2>Acontece na Academia</h2>
-      </div>
-      <a href="/noticias/" class="more">Todas as notícias →</a>
+    <figure class="hero__figure">
+      <img src="/img/banner-posse.jpg" width="1672" height="941"
+           alt="Acadêmicos fundadores da Academia Santarena de Direito, com becas verdes e medalhas, na sessão solene de posse.">
+      <figcaption>Acadêmicos fundadores na sessão solene de posse, Santarém, 21 de agosto de 2026.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="statement">
+  <div class="container statement__grid">
+    <div>
+      <p class="statement__text">{{ site.descricao }}</p>
+      <p class="statement__motto"><em>{{ site.lema }}</em>, “que floresça para a Justiça”.</p>
     </div>
-    <div class="entries">
-      {% for item in collections.noticias | limite(3) %}{% include "cartao.njk" %}{% endfor %}
+    <dl class="facts">
+      <div><dt>Fundação</dt><dd>17 ago. 2026</dd></div>
+      <div><dt>Acadêmicos fundadores</dt><dd>{{ cadeiras.cadeiras.length }}</dd></div>
+      <div><dt>Cadeiras no Estatuto</dt><dd>{{ site.cadeirasEstatuto }}</dd></div>
+      <div><dt>Sede</dt><dd>UNAMA, Santarém</dd></div>
+    </dl>
+  </div>
+</section>
+
+{% set noticias = collections.noticias %}
+<section class="block">
+  <div class="container">
+    <header class="block__head">
+      <h2>Notícias</h2>
+      <a href="/noticias/" class="more">Todas as notícias</a>
+    </header>
+    <div class="lead">
+      {% set destaque = noticias[0] %}
+      {% if destaque %}
+      <article class="lead__main">
+        {% if destaque.data.imagem %}<a href="{{ destaque.url }}" tabindex="-1" aria-hidden="true"><img src="{{ destaque.data.imagem }}" alt=""></a>{% endif %}
+        <p class="kicker">{{ destaque.data.categoria }}</p>
+        <h3><a href="{{ destaque.url }}">{{ destaque.data.title }}</a></h3>
+        <p>{{ destaque.data.descricao or (destaque.content | resumo) }}</p>
+        <time datetime="{{ destaque.date | dataISO }}">{{ destaque.date | dataBR }}</time>
+      </article>
+      {% endif %}
+      <ul class="headlines">
+        {% for item in noticias.slice(1, 6) %}
+        <li>
+          <p class="kicker">{{ item.data.categoria }}</p>
+          <a href="{{ item.url }}">{{ item.data.title }}</a>
+          <time datetime="{{ item.date | dataISO }}">{{ item.date | dataBR }}</time>
+        </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </section>
 
-<section class="section section--alt">
+<section class="block">
   <div class="container">
-    <div class="section-head">
-      <div>
-        <p class="eyebrow">Artigos</p>
-        <h2>Produção dos acadêmicos</h2>
-      </div>
-      <a href="/artigos/" class="more">Todos os artigos →</a>
-    </div>
+    <header class="block__head">
+      <h2>Artigos</h2>
+      <a href="/artigos/" class="more">Todos os artigos</a>
+    </header>
     <div class="entries">
       {% for item in collections.artigos | limite(3) %}{% include "cartao.njk" %}{% endfor %}
     </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="container split">
+<section class="block">
+  <div class="container two-col">
     <div>
-      <p class="eyebrow">Agenda</p>
-      <h2>Próximos eventos</h2>
+      <header class="block__head">
+        <h2>Agenda</h2>
+        <a href="/agenda/" class="more">Agenda completa</a>
+      </header>
       {% set proximos = collections.eventos | futuros %}
-      {% if proximos.length %}
-      <ul class="agenda-list">
-        {% for e in proximos | limite(4) %}
+      {% set lista = proximos if proximos.length else (collections.eventos | passados | limite(3)) %}
+      {% if not proximos.length %}<p class="muted small">Nenhum evento agendado. Eventos recentes:</p>{% endif %}
+      <ul class="datelist">
+        {% for e in lista %}
         <li>
-          <span class="agenda-list__date"><strong>{{ e.date | dia }}</strong>{{ e.date | mesCurto }}</span>
-          <a href="{{ e.url }}">{{ e.data.title }}</a>
+          <time datetime="{{ e.date | dataISO }}"><strong>{{ e.date | dia }}</strong>{{ e.date | mesCurto }}</time>
+          <div><a href="{{ e.url }}">{{ e.data.title }}</a><span>{{ e.data.local }}</span></div>
         </li>
         {% endfor %}
       </ul>
-      {% else %}
-      <p class="muted">Nenhum evento agendado no momento. Acompanhe a <a href="/agenda/">agenda</a>.</p>
-      {% endif %}
     </div>
     <div>
-      <p class="eyebrow">Blog</p>
-      <h2>Do blog</h2>
-      <ul class="plain-list">
-        {% for item in collections.blog | limite(4) %}
-        <li><a href="{{ item.url }}">{{ item.data.title }}</a><span>{{ item.date | dataBR }}</span></li>
+      <header class="block__head">
+        <h2>Blog</h2>
+        <a href="/blog/" class="more">Ir para o blog</a>
+      </header>
+      <ul class="headlines headlines--compact">
+        {% for item in collections.blog | limite(6) %}
+        <li>
+          <a href="{{ item.url }}">{{ item.data.title }}</a>
+          <time datetime="{{ item.date | dataISO }}">{{ item.data.autor }} · {{ item.date | dataBR }}</time>
+        </li>
         {% endfor %}
       </ul>
-      <a href="/blog/" class="more">Ir para o blog →</a>
     </div>
   </div>
 </section>
 
-<section class="cta">
-  <div class="container cta__inner">
-    <div>
-      <p class="eyebrow">Cadeiras e patronos</p>
-      <h2>33 cadeiras, 33 histórias do Direito no Tapajós.</h2>
-    </div>
-    <a href="/cadeiras/" class="btn">Ver todas as cadeiras</a>
+<section class="block block--alt">
+  <div class="container">
+    <header class="block__head">
+      <h2>Patronos</h2>
+      <a href="/patronos/" class="more">Conheça os 33 patronos</a>
+    </header>
+    <p class="block__intro">Cada cadeira da Academia homenageia, perpetuamente, um nome que marcou a história jurídica e cultural do Tapajós.</p>
+    <ul class="portraits">
+      {% for p in patronos.lista %}{% if p.foto %}
+      <li>
+        <a href="/patronos/{{ p.nome | slugify }}/">
+          <img src="{{ p.foto }}" alt="" loading="lazy">
+          <span class="portraits__n">Cadeira {{ p.numero }}</span>
+          <span class="portraits__name">{{ p.conhecidoComo or p.nome }}</span>
+        </a>
+      </li>
+      {% endif %}{% endfor %}
+      {% for p in patronos.lista %}{% if not p.foto and p.situacao == "completo" %}
+      <li>
+        <a href="/patronos/{{ p.nome | slugify }}/">
+          <span class="portraits__ph" aria-hidden="true">{{ p.numero }}</span>
+          <span class="portraits__n">Cadeira {{ p.numero }}</span>
+          <span class="portraits__name">{{ p.conhecidoComo or p.nome }}</span>
+        </a>
+      </li>
+      {% endif %}{% endfor %}
+    </ul>
   </div>
 </section>

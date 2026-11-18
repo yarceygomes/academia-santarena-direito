@@ -1,0 +1,66 @@
+---
+title: "Notícias sobre a morte do ator José Wilker"
+date: 2014-04-06T08:44:00.002-03:00
+autor: "José Ronaldo Dias Campos"
+categoria: "Revista virtual"
+imagem: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAGQAZAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAGAAMEBQcCAQj/xAA9EAABAwMCAwQHBQUJAAAAAAABAgMEAAUREiEGMUETIlFxBxQyYYGRoSNCYrHwJFKCksEVM0NTcqKys+H/xAAYAQADAQEAAAAAAAAAAAAAAAAAAQMCBP/EAB4RAQEAAgIDAQEAAAAAAAAAAAABAhEDMRIhQVEy/9oADAMBAAIRAxEAPwAkQinUpr1Kdq7SMVkO2011Ic7FnV94kBPmf1mvUYxQ7xDxbZrVMDE6X9o0MlppJWrJHgOW3j40GJWmcIAHTxqQiOpewFZyr0u21kfs1nmO45do4hv8tVeM+mltJAVw2dPiJ+//AF09UmpswgOmTUxLIQ0lIGKzeH6Z7KogSbTcWc8y2W1gfNQomtvpH4Suighq6ojOH7ktJZ381d360aoWTzPZrO2xqOtrVseVXDqEOthaCFIVulSTkH41BWgjbrSAWkNETCg/c7vw6U8lun56ALifekGukp2oCMUb15Uko3pUAsV4a7Iqi4kgOuJRNiKWHmRghB3Kfd5UUQ/frn/ZNplTTv2TZUE+J6D4nFYnb7Ner88t2DBlTFrUVLdQjulROTlXLOT40XXfjOTGb9XdRGnA4PZS2UuJyNxnI8avrB6YFxm22rtY2ezAxqgL0Y8m1bf7hTl0YNV6N+L0ICv7FcUD0S80SPhqqumcL8QQM+uWS4NAc1erKKR/EAR9a+gLP6RuFLppSLkmI6f8OanssfxHun4Gi1rQ4hLjK0rQr2VoOQfI0/Kk+PwRqIyNQ5jwro19aXCz225pKblAiy0n/PZSv8xQhdvRNwtOClR2JEBw/eivHH8qsj5Yp+RMJst/u9gcC7RcH4wzktpVltXmg90+eK0/hf0rxp60ReImm4b5wBLbP2Kj+IHdHnkjyqsvnoZu0YKctFxjzk5z2TqOwXjwByUk/EVnN3tVws0n1a6wn4j3RLqMah4pPJQ94NP1TfQ09OJiVDqOfjypxCdqy30Y8SOrfbsU1zW2ATEUo7pxuUeWNx4YI8Mas2MisGaUnevadKd6VIkbrvVXxJIVHs0tbRKXC2UoI6E7A/Wp6jgVScRq7S3uNZ2O58hvSy9Q8ZusYfiKRI06eZojg2Xt+5gABIJUam3WCiPJQ+hWUpX2ejryzv8ASiy2WfUyEOkhbqBlSTgg86llyeotjj7UKuCFSUAw3GVP4z2SjpCvI15ZbI/GfcRBlT7TNSe+hl0oyffjn8avnuGooUS9OuMZ3VkOsLJ38iD+VSFwVo7Ja5z8lTePt3UlK9PXONiOtYvJddqePvp21fuO7OBqkxLo11TJZ0r8sox896nM+lR+OnN54bkNDONcR9Lv0UE4+ZqxlILFs7bIWrTtk4oOuCrcleu/XJ2Kyo4AbQdH82K1jyZb0zcMBtE9J/CMtWhc9yKv92THWnHxAI+tSLhceDuJ4DkGTdLVLYXzbVJQCD4jcEH3jes6kcNWS4NF6zyg8MbKKgoH5UC360rh6wtGNPtJ8KrjnLUsuPQmn8A3KwcRxbhw863dILT6XUlp9BdQkEZSoZ32yMjn7q1pICRzGB1zXzPa3XIstLjW2dj7xW6cNcNxUx486Z+0uuIS4lKk4SjIzy6nz+VarAlI3pV2edKglG+9hNUFwlhLzZXgp1d7PLFWsgEg0OXRPPNKzcax7Q+IWfVJMFKVBbII38uWfHnR5ZUoejNrXjJG1ZbIccdkNtqWVJT7IPSjW0Pyk2xJaP4dRPs1zZzWo6MLsbH1VKQdQ7TwHP5VWLcTJe06VfaHSkkbEZqBbJKUq0khTvVzO5NRHJV0s+lcpDcq3tnPbtp0raH4xyI/EOXhS7a3BNMjISyjtACgEZzyqMu3yEhL0F3uq9ptw5HwqLO4rgPoZaYbdkrOFFDDRXt4npUtuY5EZafTlLJGVtqx3P11osgntAeskREhUsx0tSljvLaGnPmaBuJI6FofZUkl1asAAHOenMn3VpkuUhyOpwqBOM1n6R67xGHFAqQ3hRSOuOf9aU/rZZfigsXCvaXOO3KQQkuHWPwjJP5VsrKgAAAABsAOlDsRoomhSwMoSUg4wSSdzjoOlXjatq6cLbN1z596S8ilTGulW2FNIRhJoYu4xmi59OxoZvDWQaKc7B7iuzlJcHQg/KtD4Z0hyRGIBbcQl5A88g/l9az6YgpUTjlvRhwdKSpcDKtwlbBOemApP0FQ5Z9Wwpudarjb+KW0wZzTcSUQGkPoBCF7d339SPKiyMq4Rmym525Skd0dowokd44G3Mb0y4UvvhpaQSFHGoZGRVxbTKYbCEPOBII7pXqG2P3gT49aUsrVl16VUifFitrQiFLYS3qKsRF4AG5JIFUcfiSHdXXmLel58o3X2Laj2Y/FkUUXlVwktKYanOsJUMOEIb2BIO23uI38aZgxYttgqbitobb/ALxwge0eZJPUneldCbUrpeYgBDw0nJA/01R2FakXNchvmlOTn3jGD9asr/IUtKUEkuPcgfuopm0s6IuvqvKs+NLjmyzy0lW+UqRIccVgEq5DlRCyrIoXsg5n30URk5Arpk0hT1KnAjalTJBeGxqjuTYKTmrwJW4NSk6R9aQtyXDnTgDc5pUvJm91hPBlbgR90kDqahWa4PQ5LeknI0rSPEj/AMrUjZe2YlOlIKQhSBt1wazCZAcbYYcbBDiUgip5X9Vw9tRtgj3WM2+Maj3sfrrV01APZ7OHGNs7msp4f4kMNaQVFG/eHTNHkXiqOpoKUvvH3c6nJpXaxchrK/tHMpHMAVXT5LCGy24rS2j7R4/8U/T6UxcOJNaSGUjJG2aH223p7wS4orQk61+GfE1mjtEnvrcLkuRntH1YCRzCfD5freiBppPq2pGNGju48MUybaHJbKHB33CcAj2UgZA+dWrFschQxFWcpQMIxz0H2fpVOJLkVFkb7nmaJ4yMJqst0UR1Bokc9j41dtIwKunt6E0qc00qArmhqcQk8ueKmMHuq8zSpVlNaobSm0HAxlKj9DWYXCO2laQBtoFKlUuX46eEJ3GIyJKwE4yK7tiVR9Zbcc32IJpUqz8V+rW1spkzQhwnSTvjrWgxYrLLaG2kBKRvgUqVT+j46jMNuX6MFDbB/rVrdUj1hz+EfSlSro4+nPyqCUhOySkEKOCDTEafIjTmoyV62lkbL30+R50qVbRgjpUqVabf/9k="
+original: "https://joseronaldodiascampos.blogspot.com/2014/04/noticias-sobre-morte-do-ator-jose-wilker.html"
+importado: true
+templateEngineOverride: md
+---
+
+<div>
+<a href="https://www.google.com.br/search?q=jose+wilker&amp;espv=210&amp;es_sm=93&amp;source=univ&amp;tbm=nws&amp;tbo=u&amp;sa=X&amp;ei=Uz1BU5etLObesATy3oGQDA&amp;ved=0CC4QqAI">Notícias sobre josé wilker</a></div>
+<div>
+<a href="https://www.google.com.br/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=0CC8QpwI&amp;url=http%3A%2F%2Fvejasp.abril.com.br%2Fblogs%2Fmiguel-barbieri%2F2014%2F04%2F05%2Fjose-wilker-homenagem-artistas-fotos%2F&amp;ei=Uz1BU5etLObesATy3oGQDA&amp;usg=AFQjCNEK2uxi_pMuHcIEBqvV7qnkAmZiEA&amp;sig2=FSF8lg0Ppxtokchx0FTnKQ&amp;bvm=bv.64125504,d.cWc"></a><br />
+<div>
+<img loading="lazy" alt="" src="data:image/jpeg;base64,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" /></div>
+<a href="https://www.google.com.br/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=0CC8QpwI&amp;url=http%3A%2F%2Fvejasp.abril.com.br%2Fblogs%2Fmiguel-barbieri%2F2014%2F04%2F05%2Fjose-wilker-homenagem-artistas-fotos%2F&amp;ei=Uz1BU5etLObesATy3oGQDA&amp;usg=AFQjCNEK2uxi_pMuHcIEBqvV7qnkAmZiEA&amp;sig2=FSF8lg0Ppxtokchx0FTnKQ&amp;bvm=bv.64125504,d.cWc">
+</a>
+<br />
+<div>
+<div>
+<div>
+<a href="https://www.google.com.br/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=0CC8QpwI&amp;url=http%3A%2F%2Fvejasp.abril.com.br%2Fblogs%2Fmiguel-barbieri%2F2014%2F04%2F05%2Fjose-wilker-homenagem-artistas-fotos%2F&amp;ei=Uz1BU5etLObesATy3oGQDA&amp;usg=AFQjCNEK2uxi_pMuHcIEBqvV7qnkAmZiEA&amp;sig2=FSF8lg0Ppxtokchx0FTnKQ&amp;bvm=bv.64125504,d.cWc">BIZZ</a></div>
+</div>
+</div>
+<a href="https://www.google.com.br/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=0CC8QpwI&amp;url=http%3A%2F%2Fvejasp.abril.com.br%2Fblogs%2Fmiguel-barbieri%2F2014%2F04%2F05%2Fjose-wilker-homenagem-artistas-fotos%2F&amp;ei=Uz1BU5etLObesATy3oGQDA&amp;usg=AFQjCNEK2uxi_pMuHcIEBqvV7qnkAmZiEA&amp;sig2=FSF8lg0Ppxtokchx0FTnKQ&amp;bvm=bv.64125504,d.cWc">
+</a></div>
+<div>
+<ol>
+<li><div sig="fX1">
+<br />
+<div>
+<a href="http://g1.globo.com/rio-de-janeiro/noticia/2014/04/corpo-do-ator-jose-wilker-e-velado-em-teatro-na-zona-sul-do-rio.html">Corpo do ator José Wilker é velado em teatro na Zona Sul do Rio</a></div>
+
+<br />
+<div>
+<cite>Globo.com</cite> ‎- 51 minutos atrás</div>
+
+<div>
+O corpo do ator José Wilker começou a ser velado por familiares pouco depois das 22h20 deste sábado (5), no Teatro Ipanema, na Zona Sul ...</div>
+
+</div>
+</li>
+</ol>
+</div>
+<div>
+<ol>
+<li><div sig="cus">
+<br />
+<div>
+<a href="http://ego.globo.com/famosos/noticia/2014/04/famosos-lamentam-morte-de-jose-wilker-nas-redes-sociais.html">Famosos lamentam morte de José Wilker nas redes sociais</a> (clique pra ler)</div>
+
+<br />
+<div>
+<cite>Globo.com</cite>‎ </div>
+
+</div>
+</li>
+<li><div sig="Ov7">
+<div>
+<a href="http://g1.globo.com/rio-de-janeiro/noticia/2014/04/velorio-do-ator-jose-wilker-sera-realizado-no-teatro-ipanema-rio.html">Velório do ator José Wilker será realizado no Teatro Ipanema, Rio</a></div>
+</div>
+</li>
+</ol>
+</div>

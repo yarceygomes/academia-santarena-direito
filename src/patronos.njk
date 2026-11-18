@@ -1,0 +1,38 @@
+---
+layout: layouts/pagina.njk
+title: Patronos
+secao: Memória
+descricao: Os 33 nomes que dão patronato perpétuo às cadeiras da Academia, juristas, magistrados, escritores e homens e mulheres públicos que marcaram a história do Tapajós.
+permalink: /patronos/
+---
+<section class="block">
+  <div class="container">
+    <ol class="patron-index">
+      {% for p in patronos.lista %}
+      {% set c = cadeiras.cadeiras[loop.index0] %}
+      <li>
+        <a href="/patronos/{{ p.nome | slugify }}/" class="patron-card">
+          {% if p.foto %}
+          <img src="{{ p.foto }}" alt="" loading="lazy">
+          {% else %}
+          <span class="patron-card__ph" aria-hidden="true">{{ p.numero }}</span>
+          {% endif %}
+          <span class="patron-card__n">Cadeira {{ p.numero }}</span>
+          <span class="patron-card__name">{{ p.nome }}</span>
+          {% if p.atividade %}<span class="patron-card__role">{{ p.atividade }}</span>{% endif %}
+          {% if p.situacao == "em-elaboracao" %}<span class="patron-card__status">Biografia em elaboração</span>{% endif %}
+        </a>
+      </li>
+      {% endfor %}
+    </ol>
+
+    <aside class="note-box">
+      <h2>Ajude a completar estas biografias</h2>
+      <p>
+        Várias trajetórias ainda não têm registro público acessível. Familiares, colegas e pesquisadores que
+        tenham documentos, fotografias ou memórias dos patronos podem enviá-los à Academia pela página de
+        <a href="/contato/">contato</a>. Fotografias só são publicadas com autorização de quem detém os direitos.
+      </p>
+    </aside>
+  </div>
+</section>

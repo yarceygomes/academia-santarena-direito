@@ -1,0 +1,88 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: patronos.lista
+  size: 1
+  alias: p
+permalink: "/patronos/{{ p.nome | slugify }}/"
+eleventyComputed:
+  title: "{{ p.nome }}"
+  descricao: "Patrono da Cadeira nº {{ p.numero }} da Academia Santarena de Direito."
+---
+{% set c = cadeiras.cadeiras[p.numero - 1] %}
+<article class="profile">
+  <div class="container">
+    <nav class="crumbs" aria-label="Trilha">
+      <a href="/patronos/">Patronos</a> <span aria-hidden="true">/</span> Cadeira {{ p.numero }}
+    </nav>
+
+    <div class="profile__grid">
+      <aside class="profile__side">
+        {% if p.foto %}
+        <figure class="profile__photo">
+          <img src="{{ p.foto }}" alt="Retrato de {{ p.conhecidoComo or p.nome }}">
+          <figcaption>{% if p.fotoFonte %}<a href="{{ p.fotoFonte }}" target="_blank" rel="noopener">{{ p.fotoCredito }}</a>{% else %}{{ p.fotoCredito }}{% endif %}</figcaption>
+        </figure>
+        {% else %}
+        <div class="profile__ph" aria-hidden="true"><span>{{ p.numero }}</span></div>
+        <p class="small muted">Sem fotografia de uso livre localizada.</p>
+        {% endif %}
+
+        <dl class="profile__facts">
+          <div><dt>Cadeira</dt><dd>nº {{ p.numero }}</dd></div>
+          {% if c.ocupante %}<div><dt>Titular</dt><dd>{{ c.ocupante }}</dd></div>{% endif %}
+          {% if p.nascimento %}<div><dt>Nascimento</dt><dd>{{ p.nascimento }}</dd></div>{% endif %}
+          {% if p.falecimento %}<div><dt>Falecimento</dt><dd>{{ p.falecimento }}</dd></div>{% endif %}
+        </dl>
+      </aside>
+
+      <div class="profile__main">
+        <p class="kicker">Patrono da Cadeira nº {{ p.numero }}</p>
+        <h1>{{ p.nome }}</h1>
+        {% if p.conhecidoComo or p.nomeCompleto %}<p class="profile__aka">{% if p.conhecidoComo %}Conhecido como {{ p.conhecidoComo }}{% else %}{{ p.nomeCompleto }}{% endif %}</p>{% endif %}
+        {% if p.atividade %}<p class="profile__role">{{ p.atividade }}</p>{% endif %}
+
+        {% if p.resumo %}<p class="profile__lead">{{ p.resumo }}</p>{% endif %}
+
+        {% if p.trajetoria and p.trajetoria.length %}
+        <section class="profile__section">
+          <h2>Trajetória</h2>
+          <ul>{% for t in p.trajetoria %}<li>{{ t }}</li>{% endfor %}</ul>
+        </section>
+        {% endif %}
+
+        {% if p.obras and p.obras.length %}
+        <section class="profile__section">
+          <h2>Obras</h2>
+          <ul class="works">{% for o in p.obras %}<li>{{ o }}</li>{% endfor %}</ul>
+        </section>
+        {% endif %}
+
+        {% if p.situacao != "completo" %}
+        <section class="profile__section profile__pending">
+          <h2>Biografia em elaboração</h2>
+          <p>
+            {% if p.situacao == "em-elaboracao" %}Ainda não localizamos fontes públicas confiáveis sobre a trajetória deste patrono.{% else %}As informações abaixo são parciais.{% endif %}
+            Documentos, fotografias e depoimentos podem ser enviados à Academia pela página de <a href="/contato/">contato</a>.
+          </p>
+          {% if p.nota %}<p class="muted">{{ p.nota }}</p>{% endif %}
+        </section>
+        {% endif %}
+
+        {% if p.fontes and p.fontes.length %}
+        <section class="profile__section">
+          <h2>Fontes</h2>
+          <ol class="sources">
+            {% for f in p.fontes %}<li><a href="{{ f.url }}"{% if f.url.startsWith('http') %} target="_blank" rel="noopener"{% endif %}>{{ f.titulo }}</a></li>{% endfor %}
+          </ol>
+        </section>
+        {% endif %}
+
+        <nav class="profile__nav" aria-label="Outros patronos">
+          {% if p.numero > 1 %}{% set ant = patronos.lista[p.numero - 2] %}<a href="/patronos/{{ ant.nome | slugify }}/">← Cadeira {{ ant.numero }} · {{ ant.conhecidoComo or ant.nome }}</a>{% else %}<span></span>{% endif %}
+          {% if p.numero < patronos.lista.length %}{% set prox = patronos.lista[p.numero] %}<a href="/patronos/{{ prox.nome | slugify }}/">Cadeira {{ prox.numero }} · {{ prox.conhecidoComo or prox.nome }} →</a>{% endif %}
+        </nav>
+      </div>
+    </div>
+  </div>
+</article>

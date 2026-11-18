@@ -1,34 +1,35 @@
 ---
 layout: layouts/pagina.njk
-title: Cadeiras e patronos
+title: Cadeiras
 secao: Composição
-descricao: Cada cadeira tem um patrono perpétuo, personalidade que marcou a história jurídica da região do Tapajós.
+descricao: O Estatuto prevê 40 cadeiras, cada uma sob o patronato perpétuo de uma personalidade que marcou a história do Tapajós. Trinta e três foram ocupadas pelos acadêmicos fundadores.
 permalink: /cadeiras/
 ---
-<section class="section section--alt">
+<section class="block">
   <div class="container">
-    <div class="section-head">
-      <p class="muted">
-        {{ cadeiras.cadeiras.length }} de {{ site.cadeirasEstatuto }} cadeiras ocupadas pelos acadêmicos fundadores.
-      </p>
+    <div class="toolbar">
+      <p class="muted">{{ cadeiras.cadeiras.length }} de {{ site.cadeirasEstatuto }} cadeiras ocupadas</p>
       <label class="search">
-        <span class="sr-only">Buscar por patrono ou acadêmico</span>
-        <input type="search" id="busca-cadeiras" placeholder="Buscar patrono ou acadêmico…" autocomplete="off">
+        <span class="sr-only">Filtrar por patrono ou acadêmico</span>
+        <input type="search" id="busca-cadeiras" placeholder="Filtrar por patrono ou acadêmico" autocomplete="off">
       </label>
     </div>
 
-    <ol class="chairs" id="lista-cadeiras">
-      {% for c in cadeiras.cadeiras %}
-      <li class="chair" id="cadeira-{{ c.numero }}">
-        <span class="chair__n">{{ c.numero }}</span>
-        <div>
-          <span class="chair__label">Patrono</span>
-          <h3 class="chair__patron">{{ c.patrono }}</h3>
-          <p class="chair__member"><span>Acadêmico</span> {{ c.ocupante }}</p>
-        </div>
-      </li>
-      {% endfor %}
-    </ol>
-    <p class="muted" id="sem-resultados" hidden>Nenhuma cadeira encontrada para essa busca.</p>
+    <table class="chairs-table">
+      <thead>
+        <tr><th scope="col">Nº</th><th scope="col">Patrono</th><th scope="col">Acadêmico titular</th></tr>
+      </thead>
+      <tbody id="lista-cadeiras">
+        {% for c in cadeiras.cadeiras %}
+        {% set p = patronos.lista[loop.index0] %}
+        <tr class="chair" id="cadeira-{{ c.numero }}">
+          <td class="chairs-table__n">{{ c.numero }}</td>
+          <td><a href="/patronos/{{ p.nome | slugify }}/">{{ c.patrono }}</a></td>
+          <td>{{ c.ocupante }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <p class="muted" id="sem-resultados" hidden>Nenhuma cadeira encontrada.</p>
   </div>
 </section>
