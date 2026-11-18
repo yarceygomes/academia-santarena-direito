@@ -23,6 +23,16 @@ const md = markdownIt({ html: true, linkify: true });
 export default function (eleventyConfig) {
   eleventyConfig.addFilter("markdown", (texto = "") => md.render(texto));
 
+  // Remove dos posts importados as imagens hospedadas nos servidores antigos do Facebook,
+  // que já não existem e deixariam ícones de imagem quebrada.
+  const imagemMorta = /<img[^>]+src="https?:\/\/[^"]*(fbcdn|akamaihd|fbsbx)[^"]*"[^>]*>/gi;
+  eleventyConfig.addTransform("imagens-mortas", function (conteudo) {
+    if (this.page.outputPath?.endsWith(".html") && this.page.url?.startsWith("/blog/")) {
+      return conteudo.replace(imagemMorta, "");
+    }
+    return conteudo;
+  });
+
   // Corrige os links quando o site é publicado numa subpasta (ex.: GitHub Pages)
   eleventyConfig.addPlugin(HtmlBasePlugin);
 

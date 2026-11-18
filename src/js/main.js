@@ -128,6 +128,32 @@ form?.addEventListener("submit", (ev) => {
   location.href = `mailto:${form.dataset.email}?subject=${encodeURIComponent(assunto)}&body=${encodeURIComponent(corpo)}`;
 });
 
+// ===== Imagens quebradas nos textos importados =====
+// Muitas fotos antigas do blog estavam no Facebook e não existem mais: remove o espaço vazio.
+document.querySelectorAll(".post__body img").forEach((img) => {
+  const remover = () => {
+    const pai = img.parentElement;
+    img.remove();
+    if (pai && pai !== img.closest(".post__body") && !pai.textContent.trim() && !pai.querySelector("img")) pai.remove();
+  };
+  if (img.complete && img.naturalWidth === 0 && img.getAttribute("src")) remover();
+  else img.addEventListener("error", remover);
+});
+
+// ===== Quebras de linha sobrando nos textos importados =====
+const ehVazio = (n) => n && n.nodeType === 3 && !n.textContent.trim();
+document.querySelectorAll(".post__body br").forEach((br) => {
+  let prox = br.nextSibling;
+  while (ehVazio(prox)) prox = prox.nextSibling;
+  let ant = br.previousSibling;
+  while (ehVazio(ant)) ant = ant.previousSibling;
+  // remove <br> repetido, no início ou no fim de um bloco
+  if (!prox || !ant || prox.nodeName === "BR" || /^(DIV|P|UL|OL|H\d|TABLE|BLOCKQUOTE)$/.test(prox.nodeName)) br.remove();
+});
+document.querySelectorAll(".post__body div, .post__body p").forEach((el) => {
+  if (!el.textContent.trim() && !el.querySelector("img, iframe, video, table")) el.remove();
+});
+
 // ===== Ano no rodapé =====
 const ano = document.getElementById("year");
 if (ano) ano.textContent = new Date().getFullYear();

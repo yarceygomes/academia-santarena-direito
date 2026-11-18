@@ -410,3 +410,70 @@ p { margin: 0 0 1em; }
 
 /* ===== Legado (classes antigas ainda usadas em algumas páginas) ===== */
 .intro, .stats, .cta, .banner { display: none; }
+
+/* ===== Textos importados do Blogger ===== */
+.post__body { overflow-wrap: anywhere; }
+.post__body p:empty, .post__body div:empty, .post__body span:empty { display: none; }
+.post__body br + br { display: none; }
+.post__body > div > br:only-child { display: none; }
+.post__body img, .post__body video, .post__body iframe, .post__body table { max-width: 100%; height: auto; }
+.post__body table { display: block; overflow-x: auto; }
+.post__body ul ul, .post__body ol ul { list-style: none; padding-left: 0; }
+
+/* ===== Celular ===== */
+@media (max-width: 640px) {
+  body { font-size: 1rem; }
+  .masthead__inner { padding-top: 1rem; padding-bottom: .8rem; gap: 1rem; }
+  .wordmark__name { font-size: 1.3rem; }
+  .wordmark__sub { font-size: .75rem; }
+
+  .hero { padding-top: 1rem; }
+  .hero__figure img { aspect-ratio: 16 / 10; }
+  .statement { padding: 1.5rem 0 .5rem; }
+  .statement__text { font-size: 1.2rem; }
+
+  .block, .section { padding: 1.75rem 0 2rem; }
+  .block__head h2, .section-head h2 { font-size: 1.3rem; }
+  .page-head { padding: 1.5rem 0 1.1rem; }
+  .page-head__lead { font-size: 1.05rem; }
+  .entries { gap: 1.5rem; }
+  .entry__title { font-size: 1.15rem; }
+  .lead__main h3 { font-size: 1.4rem; }
+  .headlines a { font-size: 1.05rem; }
+
+  /* Publicações */
+  .post__head { padding: 1.5rem 0 1rem; }
+  .post__lead { font-size: 1.1rem; }
+  .post__body { font-size: 1.0625rem; line-height: 1.7; }
+  .post__body h2 { font-size: 1.35rem; }
+
+  /* Patronos: lista compacta, com miniatura à esquerda */
+  .patron-index { grid-template-columns: 1fr; gap: 0; border-top: 3px solid var(--ink); }
+  .patron-index li { border-bottom: 1px solid var(--rule); }
+  .patron-card {
+    display: grid; grid-template-columns: 56px 1fr; column-gap: .9rem; align-items: center;
+    padding: .75rem 0;
+  }
+  .patron-card img, .patron-card__ph {
+    grid-row: 1 / span 4; width: 56px; aspect-ratio: 3 / 4; margin: 0;
+  }
+  .patron-card__ph { font-size: 1.2rem; }
+  .patron-card__name { font-size: 1.05rem; margin: 0; }
+  .patron-card__n, .patron-card__role, .patron-card__status { margin: 0; }
+
+  .portraits { grid-template-columns: repeat(2, 1fr); gap: 1.25rem 1rem; }
+
+  /* Página do patrono: sem quadro vazio quando não há foto */
+  .profile { padding-top: 1rem; }
+  .profile__grid { display: flex; flex-direction: column; gap: 1.25rem; }
+  .profile__side { display: contents; }
+  .profile__photo { order: 1; max-width: 200px; margin: 0; }
+  .profile__main { order: 2; }
+  .profile__facts { order: 3; }
+  .profile__ph, .profile__side > .small { display: none; }
+  .profile__lead { font-size: 1.1rem; }
+  .profile__nav { flex-direction: column; }
+
+  .datelist time, .event__date { width: 50px; }
+  .footer__grid { padding-top: 2rem; }
+}
