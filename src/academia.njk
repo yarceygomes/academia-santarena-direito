@@ -1,0 +1,103 @@
+---
+layout: layouts/pagina.njk
+title: A Academia
+secao: Institucional
+descricao: Uma casa dedicada à cultura jurídica de Santarém e do Baixo Amazonas.
+permalink: /academia/
+---
+<section class="section">
+  <div class="container split">
+    <div>
+      <p class="eyebrow">Quem somos</p>
+      <h2>Cultivar o Direito a partir da Amazônia.</h2>
+    </div>
+    <div class="prose">
+      <!-- EDITAR: texto institucional; ajuste conforme o Estatuto -->
+      <p>
+        A Academia Santarena de Direito (ASD) foi fundada em 17 de agosto de 2026 e instalada em
+        sessão solene no dia 21 do mesmo mês. Reúne profissionais do Direito com pelo menos dez anos
+        de carreira, entre advogados, magistrados, membros do Ministério Público, delegados e professores.
+      </p>
+      <p>
+        Seu propósito é valorizar o Direito, a Justiça, a cidadania, a cultura jurídica e a memória
+        regional, e incentivar a produção de conhecimento jurídico no Oeste do Pará, por meio de
+        estudos, seminários, publicações, palestras e debates.
+      </p>
+      <p>
+        O Estatuto prevê <strong>{{ site.cadeirasEstatuto }} cadeiras</strong>, cada uma com um
+        patrono perpétuo. A Academia foi instalada com {{ cadeiras.cadeiras.length }} acadêmicos fundadores;
+        as demais cadeiras serão preenchidas por eleição.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container">
+    <p class="eyebrow">Linha do tempo</p>
+    <h2>Fundação e instalação</h2>
+    <ol class="timeline">
+      {% for marco in institucional.linhaDoTempo %}
+      <li>
+        <time datetime="{{ marco.data }}">{{ marco.data | dataBR }}</time>
+        <h3>{{ marco.titulo }}</h3>
+        <p>{{ marco.texto }}</p>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="section" id="diretoria">
+  <div class="container">
+    <p class="eyebrow">Diretoria</p>
+    <h2>Órgãos de administração</h2>
+    <div class="people">
+      {% for p in institucional.diretoria.concat(institucional.assembleia) %}
+      <article class="person">
+        <div class="person__photo" aria-hidden="true">{{ p.nome | iniciais }}</div>
+        <p class="person__role">{{ p.cargo }}</p>
+        <h3>{{ p.nome }}</h3>
+        <p>{{ p.detalhe }}</p>
+      </article>
+      {% endfor %}
+    </div>
+    <p class="muted note">A primeira diretoria tem cinco membros. Os demais cargos serão publicados em breve.</p>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container split">
+    <div>
+      <p class="eyebrow">Hino da Academia</p>
+      <h2>Música e letra de {{ institucional.hino.autor }}.</h2>
+      <p class="muted">{{ institucional.hino.detalhe }}</p>
+    </div>
+    <div class="prose">
+      <p>{{ institucional.hino.estreia }}</p>
+      {% if institucional.hino.letra %}
+      <div class="hymn">{{ institucional.hino.letra | safe }}</div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split">
+    <div>
+      <p class="eyebrow">Membros honorários</p>
+      <h2>Sócios honorários</h2>
+      <ul class="plain-list">
+        {% for h in institucional.honorarios %}
+        <li><strong>{{ h.nome }}</strong><span>{{ h.detalhe }}</span></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div>
+      <p class="eyebrow">Sede</p>
+      <h2>Onde estamos</h2>
+      <p class="prose">{{ site.sede }}.</p>
+      <p class="muted">O Estatuto e o Regimento Interno serão disponibilizados nesta página.</p>
+    </div>
+  </div>
+</section>

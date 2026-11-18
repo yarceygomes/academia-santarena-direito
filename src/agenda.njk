@@ -1,0 +1,37 @@
+---
+layout: layouts/pagina.njk
+title: Agenda
+secao: Eventos
+descricao: Sessões, palestras, seminários e lançamentos da Academia.
+permalink: /agenda/
+---
+{% macro evento(e) %}
+<li class="event">
+  <span class="event__date"><strong>{{ e.date | dia }}</strong>{{ e.date | mesCurto }}</span>
+  <div>
+    {% if e.data.categoria %}<p class="eyebrow">{{ e.data.categoria }}</p>{% endif %}
+    <h3><a href="{{ e.url }}">{{ e.data.title }}</a></h3>
+    <p class="muted">{% if e.data.horario %}{{ e.data.horario }} · {% endif %}{{ e.data.local }}</p>
+    {% if e.data.descricao %}<p>{{ e.data.descricao }}</p>{% endif %}
+  </div>
+</li>
+{% endmacro %}
+
+<section class="section">
+  <div class="container">
+    <h2>Próximos eventos</h2>
+    {% set proximos = collections.eventos | futuros %}
+    {% if proximos.length %}
+    <ol class="events">{% for e in proximos %}{{ evento(e) }}{% endfor %}</ol>
+    {% else %}
+    <p class="muted">Nenhum evento agendado no momento.</p>
+    {% endif %}
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container">
+    <h2>Eventos realizados</h2>
+    <ol class="events">{% for e in collections.eventos | passados %}{{ evento(e) }}{% endfor %}</ol>
+  </div>
+</section>

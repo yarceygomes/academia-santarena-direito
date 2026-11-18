@@ -1,0 +1,17 @@
+{
+  "name": "academia-santarena-direito",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site da Academia Santarena de Direito (ASD)",
+  "type": "module",
+  "scripts": {
+    "start": "eleventy --serve --port=8080",
+    "build": "eleventy",
+    "cms": "decap-server"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "3.1.8",
+    "decap-server": "3.11.6",
+    "markdown-it": "14.3.3"
+  }
+}

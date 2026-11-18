@@ -1,0 +1,21 @@
+---
+layout: layouts/pagina.njk
+title: Galeria
+secao: Memória
+descricao: Registros fotográficos das sessões e eventos da Academia.
+permalink: /galeria/
+---
+<section class="section">
+  <div class="container">
+    <ul class="gallery">
+      {% for f in galeria.fotos %}
+      <li>
+        <figure>
+          <a href="{{ f.imagem }}" target="_blank" rel="noopener"><img src="{{ f.imagem }}" alt="{{ f.legenda }}" loading="lazy"></a>
+          <figcaption>{{ f.legenda }}</figcaption>
+        </figure>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

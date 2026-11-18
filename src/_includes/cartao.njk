@@ -1,0 +1,17 @@
+{# Cartão de publicação usado nas listas. Recebe a variável "item". #}
+<article class="entry">
+  {% if item.data.imagem %}
+  <a href="{{ item.url }}" class="entry__img" tabindex="-1" aria-hidden="true">
+    <img src="{{ item.data.imagem }}" alt="" loading="lazy">
+  </a>
+  {% endif %}
+  <div class="entry__body">
+    <p class="entry__meta">
+      {% if item.data.categoria %}<span class="entry__cat">{{ item.data.categoria }}</span>{% endif %}
+      <time datetime="{{ item.date | dataISO }}">{{ item.date | dataBR }}</time>
+    </p>
+    <h3 class="entry__title"><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
+    <p class="entry__excerpt">{{ item.data.descricao or (item.content | resumo) }}</p>
+    {% if item.data.autor %}<p class="entry__author">Por {{ item.data.autor }}</p>{% endif %}
+  </div>
+</article>

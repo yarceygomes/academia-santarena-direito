@@ -1,0 +1,196 @@
+# Painel de edição da ASD (Decap CMS)
+# Cada publicação feita no painel vira um arquivo no repositório do GitHub,
+# e o site é reconstruído automaticamente em seguida.
+
+backend:
+  name: github
+  repo: yarceygomes/academia-santarena-direito
+  branch: main
+  commit_messages:
+    create: "Publica {{collection}}: {{slug}}"
+    update: "Atualiza {{collection}}: {{slug}}"
+    delete: "Remove {{collection}}: {{slug}}"
+    uploadMedia: "Envia imagem {{path}}"
+    deleteMedia: "Remove imagem {{path}}"
+
+# Para testar no computador: rode "npm run cms" e abra http://localhost:8080/admin/
+local_backend: true
+
+locale: pt
+media_folder: src/img/uploads
+public_folder: /img/uploads
+
+collections:
+  - name: noticias
+    label: Notícias
+    label_singular: Notícia
+    description: Acontecimentos, sessões, posses e participação da Academia em eventos.
+    folder: src/noticias
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: [date, title]
+    summary: "{{title}} · {{date | date('DD/MM/YYYY')}}"
+    fields:
+      - { label: "Categoria", name: categoria, widget: select, options: [Institucional, Posse, Sessão, Evento, Entrevista, Homenagem, Parceria], required: false }
+      - { label: "Título", name: title, widget: string }
+      - { label: "Data", name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false }
+      - { label: "Resumo (aparece nas listas e no Google)", name: descricao, widget: text, required: false }
+      - { label: "Imagem de capa", name: imagem, widget: image, required: false }
+      - { label: "Descrição da imagem (para acessibilidade)", name: imagemDescricao, widget: string, required: false }
+      - { label: "Texto", name: body, widget: markdown }
+      - { label: "Fontes / referências", name: fonte, widget: markdown, required: false, buttons: [link, bulleted-list], editor_components: [] }
+      - { label: "Palavras-chave", name: tags, widget: list, required: false }
+      - { label: "Salvar como rascunho (não aparece no site)", name: rascunho, widget: boolean, default: false, required: false }
+
+  - name: artigos
+    label: Artigos
+    label_singular: Artigo
+    description: Textos jurídicos e de opinião assinados pelos acadêmicos.
+    folder: src/artigos
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: [date, title, autor]
+    summary: "{{title}} · {{autor}}"
+    fields:
+      - { label: "Autor", name: autor, widget: string }
+      - { label: "Categoria", name: categoria, widget: select, options: [Opinião, Doutrina, Direito Constitucional, Direito Civil, Direito Penal, Direito do Trabalho, Direito Ambiental, Direito Administrativo, Memória Jurídica], required: false }
+      - { label: "Título", name: title, widget: string }
+      - { label: "Data", name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false }
+      - { label: "Resumo (aparece nas listas e no Google)", name: descricao, widget: text, required: false }
+      - { label: "Imagem de capa", name: imagem, widget: image, required: false }
+      - { label: "Descrição da imagem (para acessibilidade)", name: imagemDescricao, widget: string, required: false }
+      - { label: "Texto", name: body, widget: markdown }
+      - { label: "Fontes / referências", name: fonte, widget: markdown, required: false, buttons: [link, bulleted-list], editor_components: [] }
+      - { label: "Palavras-chave", name: tags, widget: list, required: false }
+      - { label: "Salvar como rascunho (não aparece no site)", name: rascunho, widget: boolean, default: false, required: false }
+
+  - name: blog
+    label: Blog
+    label_singular: Post
+    description: Crônicas, memórias, indicações de leitura e bastidores.
+    folder: src/blog
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: [date, title]
+    summary: "{{title}} · {{date | date('DD/MM/YYYY')}}"
+    fields:
+      - { label: "Autor", name: autor, widget: string, required: false }
+      - { label: "Categoria", name: categoria, widget: select, options: [Crônica, Memória, Leitura, Bastidores, Recados], required: false }
+      - { label: "Título", name: title, widget: string }
+      - { label: "Data", name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false }
+      - { label: "Resumo (aparece nas listas e no Google)", name: descricao, widget: text, required: false }
+      - { label: "Imagem de capa", name: imagem, widget: image, required: false }
+      - { label: "Descrição da imagem (para acessibilidade)", name: imagemDescricao, widget: string, required: false }
+      - { label: "Texto", name: body, widget: markdown }
+      - { label: "Fontes / referências", name: fonte, widget: markdown, required: false, buttons: [link, bulleted-list], editor_components: [] }
+      - { label: "Palavras-chave", name: tags, widget: list, required: false }
+      - { label: "Salvar como rascunho (não aparece no site)", name: rascunho, widget: boolean, default: false, required: false }
+
+  - name: agenda
+    label: Agenda
+    label_singular: Evento
+    description: Sessões, palestras, seminários e lançamentos.
+    folder: src/agenda
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: [date, title]
+    summary: "{{date | date('DD/MM/YYYY')}} · {{title}}"
+    fields:
+      - { label: "Nome do evento", name: title, widget: string }
+      - { label: "Data", name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false }
+      - { label: "Horário", name: horario, widget: string, required: false, hint: "Ex.: 19h" }
+      - { label: "Local", name: local, widget: string, required: false }
+      - { label: "Tipo", name: categoria, widget: select, options: [Sessão solene, Sessão ordinária, Palestra, Seminário, Lançamento de livro, Homenagem], required: false }
+      - { label: "Resumo", name: descricao, widget: text, required: false }
+      - { label: "Imagem", name: imagem, widget: image, required: false }
+      - { label: "Detalhes", name: body, widget: markdown, required: false }
+      - { label: "Salvar como rascunho", name: rascunho, widget: boolean, default: false, required: false }
+
+  - name: configuracoes
+    label: Institucional
+    description: Dados da Academia, cadeiras, diretoria e galeria.
+    editor: { preview: false }
+    files:
+      - name: site
+        label: Dados gerais e contato
+        file: src/_data/site.json
+        fields:
+          - { label: "Nome", name: nome, widget: string }
+          - { label: "Sigla", name: sigla, widget: string }
+          - { label: "Lema", name: lema, widget: string }
+          - { label: "Frase de apresentação", name: slogan, widget: string }
+          - { label: "Localidade", name: local, widget: string }
+          - { label: "Descrição (Google e redes sociais)", name: descricao, widget: text }
+          - { label: "Data de fundação", name: fundacao, widget: datetime, format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false }
+          - { label: "Cadeiras previstas no Estatuto", name: cadeirasEstatuto, widget: number, value_type: int }
+          - { label: "Sede", name: sede, widget: string }
+          - label: Contato
+            name: contato
+            widget: object
+            fields:
+              - { label: "Endereço", name: endereco, widget: string, required: false }
+              - { label: "Telefone / WhatsApp", name: telefone, widget: string, required: false }
+              - { label: "E-mail (ativa o formulário de contato)", name: email, widget: string, required: false }
+              - { label: "Instagram (sem @)", name: instagram, widget: string, required: false }
+
+      - name: cadeiras
+        label: Cadeiras e patronos
+        file: src/_data/cadeiras.json
+        fields:
+          - label: Cadeiras
+            name: cadeiras
+            widget: list
+            summary: "{{fields.numero}} · {{fields.patrono}} · {{fields.ocupante}}"
+            fields:
+              - { label: "Número", name: numero, widget: number, value_type: int }
+              - { label: "Patrono", name: patrono, widget: string }
+              - { label: "Acadêmico (ocupante)", name: ocupante, widget: string, required: false }
+
+      - name: institucional
+        label: Diretoria, hino e história
+        file: src/_data/institucional.json
+        fields:
+          - label: Diretoria
+            name: diretoria
+            widget: list
+            summary: "{{fields.cargo}}: {{fields.nome}}"
+            fields: &pessoa
+              - { label: "Cargo", name: cargo, widget: string }
+              - { label: "Nome", name: nome, widget: string }
+              - { label: "Detalhe", name: detalhe, widget: string, required: false }
+          - { label: "Assembleia Geral", name: assembleia, widget: list, summary: "{{fields.cargo}}: {{fields.nome}}", fields: *pessoa }
+          - label: Membros honorários
+            name: honorarios
+            widget: list
+            summary: "{{fields.nome}}"
+            fields:
+              - { label: "Nome", name: nome, widget: string }
+              - { label: "Detalhe", name: detalhe, widget: string, required: false }
+          - label: Hino
+            name: hino
+            widget: object
+            fields:
+              - { label: "Autor", name: autor, widget: string }
+              - { label: "Sobre o autor", name: detalhe, widget: string, required: false }
+              - { label: "Estreia", name: estreia, widget: text, required: false }
+              - { label: "Letra", name: letra, widget: markdown, required: false }
+          - label: Linha do tempo
+            name: linhaDoTempo
+            widget: list
+            summary: "{{fields.data}} · {{fields.titulo}}"
+            fields:
+              - { label: "Data", name: data, widget: datetime, format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false }
+              - { label: "Título", name: titulo, widget: string }
+              - { label: "Texto", name: texto, widget: text }
+
+      - name: galeria
+        label: Galeria de fotos
+        file: src/_data/galeria.json
+        fields:
+          - label: Fotos
+            name: fotos
+            widget: list
+            summary: "{{fields.legenda}}"
+            fields:
+              - { label: "Imagem", name: imagem, widget: image }
+              - { label: "Legenda", name: legenda, widget: string }

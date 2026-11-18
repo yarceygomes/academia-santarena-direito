@@ -1,0 +1,34 @@
+---
+layout: layouts/pagina.njk
+title: Cadeiras e patronos
+secao: Composição
+descricao: Cada cadeira tem um patrono perpétuo, personalidade que marcou a história jurídica da região do Tapajós.
+permalink: /cadeiras/
+---
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-head">
+      <p class="muted">
+        {{ cadeiras.cadeiras.length }} de {{ site.cadeirasEstatuto }} cadeiras ocupadas pelos acadêmicos fundadores.
+      </p>
+      <label class="search">
+        <span class="sr-only">Buscar por patrono ou acadêmico</span>
+        <input type="search" id="busca-cadeiras" placeholder="Buscar patrono ou acadêmico…" autocomplete="off">
+      </label>
+    </div>
+
+    <ol class="chairs" id="lista-cadeiras">
+      {% for c in cadeiras.cadeiras %}
+      <li class="chair" id="cadeira-{{ c.numero }}">
+        <span class="chair__n">{{ c.numero }}</span>
+        <div>
+          <span class="chair__label">Patrono</span>
+          <h3 class="chair__patron">{{ c.patrono }}</h3>
+          <p class="chair__member"><span>Acadêmico</span> {{ c.ocupante }}</p>
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+    <p class="muted" id="sem-resultados" hidden>Nenhuma cadeira encontrada para essa busca.</p>
+  </div>
+</section>

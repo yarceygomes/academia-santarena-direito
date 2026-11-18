@@ -1,0 +1,28 @@
+---
+layout: layouts/pagina.njk
+title: Contato
+secao: Fale com a Academia
+permalink: /contato/
+---
+<section class="section">
+  <div class="container split">
+    <ul class="contact-list">
+      <li><strong>Sede:</strong> {{ site.sede }}</li>
+      {% if site.contato.telefone %}<li><strong>Telefone:</strong> {{ site.contato.telefone }}</li>{% endif %}
+      {% if site.contato.email %}<li><strong>E-mail:</strong> <a href="mailto:{{ site.contato.email }}">{{ site.contato.email }}</a></li>{% endif %}
+      {% if site.contato.instagram %}<li><strong>Instagram:</strong> <a href="https://instagram.com/{{ site.contato.instagram }}">@{{ site.contato.instagram }}</a></li>{% endif %}
+    </ul>
+
+    {% if site.contato.email %}
+    <form class="form" id="contact-form" data-email="{{ site.contato.email }}">
+      <label>Nome <input type="text" name="nome" required autocomplete="name"></label>
+      <label>E-mail <input type="email" name="email" required autocomplete="email"></label>
+      <label>Assunto <input type="text" name="assunto" required></label>
+      <label>Mensagem <textarea name="mensagem" rows="5"></textarea></label>
+      <button type="submit" class="btn">Enviar mensagem</button>
+    </form>
+    {% else %}
+    <p class="muted">Telefone e e-mail de contato serão publicados em breve.</p>
+    {% endif %}
+  </div>
+</section>

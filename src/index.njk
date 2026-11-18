@@ -1,0 +1,100 @@
+---
+layout: layouts/base.njk
+---
+<section class="banner">
+  <img src="/img/banner-posse.jpg" width="1672" height="941"
+       alt="Membros da Academia Santarena de Direito com becas verdes e medalhas, reunidos em foto oficial ao lado do brasão e do nome da Academia: Santarém, Pará, Baixo Amazonas.">
+</section>
+
+<section class="intro">
+  <div class="container intro__inner">
+    <p class="motto">{{ site.lema }}</p>
+    <h1>{{ site.slogan }}</h1>
+    <p class="intro__place">{{ site.local }}</p>
+    <div class="intro__actions">
+      <a href="/academia/" class="btn">Conheça a Academia</a>
+      <a href="/cadeiras/" class="btn btn--ghost">Cadeiras e patronos</a>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="container stats__grid">
+    <div><strong>17.08.2026</strong><span>Fundação</span></div>
+    <div><strong>{{ cadeiras.cadeiras.length }}</strong><span>Acadêmicos fundadores</span></div>
+    <div><strong>{{ site.cadeirasEstatuto }}</strong><span>Cadeiras no Estatuto</span></div>
+    <div><strong>UNAMA</strong><span>Sede em Santarém</span></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Notícias</p>
+        <h2>Acontece na Academia</h2>
+      </div>
+      <a href="/noticias/" class="more">Todas as notícias →</a>
+    </div>
+    <div class="entries">
+      {% for item in collections.noticias | limite(3) %}{% include "cartao.njk" %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Artigos</p>
+        <h2>Produção dos acadêmicos</h2>
+      </div>
+      <a href="/artigos/" class="more">Todos os artigos →</a>
+    </div>
+    <div class="entries">
+      {% for item in collections.artigos | limite(3) %}{% include "cartao.njk" %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split">
+    <div>
+      <p class="eyebrow">Agenda</p>
+      <h2>Próximos eventos</h2>
+      {% set proximos = collections.eventos | futuros %}
+      {% if proximos.length %}
+      <ul class="agenda-list">
+        {% for e in proximos | limite(4) %}
+        <li>
+          <span class="agenda-list__date"><strong>{{ e.date | dia }}</strong>{{ e.date | mesCurto }}</span>
+          <a href="{{ e.url }}">{{ e.data.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <p class="muted">Nenhum evento agendado no momento. Acompanhe a <a href="/agenda/">agenda</a>.</p>
+      {% endif %}
+    </div>
+    <div>
+      <p class="eyebrow">Blog</p>
+      <h2>Do blog</h2>
+      <ul class="plain-list">
+        {% for item in collections.blog | limite(4) %}
+        <li><a href="{{ item.url }}">{{ item.data.title }}</a><span>{{ item.date | dataBR }}</span></li>
+        {% endfor %}
+      </ul>
+      <a href="/blog/" class="more">Ir para o blog →</a>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container cta__inner">
+    <div>
+      <p class="eyebrow">Cadeiras e patronos</p>
+      <h2>33 cadeiras, 33 histórias do Direito no Tapajós.</h2>
+    </div>
+    <a href="/cadeiras/" class="btn">Ver todas as cadeiras</a>
+  </div>
+</section>

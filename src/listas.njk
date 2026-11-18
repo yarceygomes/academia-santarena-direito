@@ -1,0 +1,44 @@
+---
+layout: layouts/pagina.njk
+pagination:
+  data: secoes
+  size: 1
+  alias: s
+secoes:
+  - chave: noticias
+    titulo: Notícias
+    descricao: Acontecimentos, sessões, posses e participação da Academia na vida jurídica da região.
+  - chave: artigos
+    titulo: Artigos
+    descricao: Textos jurídicos e de opinião assinados pelos acadêmicos da ASD.
+  - chave: blog
+    titulo: Blog
+    descricao: Crônicas, memórias, indicações de leitura e bastidores da vida acadêmica.
+eleventyComputed:
+  title: "{{ s.titulo }}"
+  descricao: "{{ s.descricao }}"
+  secao: Publicações
+permalink: "/{{ s.chave }}/"
+---
+{% set itens = collections[s.chave] %}
+<section class="section">
+  <div class="container">
+    {% set categorias = itens | categorias %}
+    {% if categorias.length > 1 %}
+    <div class="filters" role="group" aria-label="Filtrar por categoria">
+      <button type="button" class="filter is-active" data-filtro="">Todas</button>
+      {% for c in categorias %}<button type="button" class="filter" data-filtro="{{ c }}">{{ c }}</button>{% endfor %}
+    </div>
+    {% endif %}
+
+    {% if itens.length %}
+    <div class="entries entries--list" id="lista-publicacoes">
+      {% for item in itens %}
+      <div data-categoria="{{ item.data.categoria }}">{% include "cartao.njk" %}</div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="muted">Ainda não há publicações nesta seção.</p>
+    {% endif %}
+  </div>
+</section>

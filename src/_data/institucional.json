@@ -1,0 +1,21 @@
+{
+  "diretoria": [
+    { "cargo": "Presidente", "nome": "José Ronaldo Dias Campos", "detalhe": "Advogado e professor · Cadeira nº 1 · Primeiro biênio" }
+  ],
+  "assembleia": [
+    { "cargo": "Presidente da Assembleia Geral", "nome": "Raimundo Nonato Coimbra Brasil", "detalhe": "Promotor de Justiça aposentado · Cadeira nº 3" }
+  ],
+  "honorarios": [
+    { "nome": "Rita Cortez", "detalhe": "Presidente nacional do Instituto dos Advogados Brasileiros (IAB)" }
+  ],
+  "hino": {
+    "autor": "Vicente José Malheiros da Fonseca",
+    "detalhe": "Desembargador federal do Trabalho e titular da Cadeira nº 13",
+    "estreia": "Executado pela primeira vez na sessão solene de posse, em 21 de agosto de 2026, pelo Coro e Orquestra “Maestro Wilson Fonseca”, sob regência do maestro José Agostinho da Fonseca Neto.",
+    "letra": ""
+  },
+  "linhaDoTempo": [
+    { "data": "2026-08-17", "titulo": "Fundação", "texto": "Assembleia Geral na sede da Subseção da OAB em Santarém aprova o Estatuto, elege a primeira diretoria e confirma os 33 membros fundadores e os patronos das cadeiras." },
+    { "data": "2026-08-21", "titulo": "Sessão solene de posse", "texto": "Posse da diretoria e dos 33 acadêmicos fundadores no Hotel Barrudada, com cerca de 300 convidados e a estreia do hino da Academia." }
+  ]
+}

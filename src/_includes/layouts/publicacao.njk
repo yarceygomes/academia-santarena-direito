@@ -1,0 +1,51 @@
+---
+layout: layouts/base.njk
+---
+<article class="post">
+  <header class="post__head">
+    <div class="container container--narrow">
+      <a href="{{ secaoUrl }}" class="post__back">← {{ secao }}</a>
+      {% if categoria %}<p class="eyebrow">{{ categoria }}</p>{% endif %}
+      <h1>{{ title }}</h1>
+      {% if descricao %}<p class="post__lead">{{ descricao }}</p>{% endif %}
+      <p class="post__meta">
+        {% if autor %}<span>Por <strong>{{ autor }}</strong></span>{% endif %}
+        <time datetime="{{ page.date | dataISO }}">{{ page.date | dataBR }}</time>
+        {% if horario %}<span>{{ horario }}</span>{% endif %}
+        {% if local %}<span>{{ local }}</span>{% endif %}
+        {% if secao != "Agenda" %}<span>{{ content | tempoLeitura }} min de leitura</span>{% endif %}
+      </p>
+    </div>
+  </header>
+
+  {% if imagem %}
+  <figure class="post__cover container container--wide">
+    <img src="{{ imagem }}" alt="{{ imagemDescricao or '' }}">
+  </figure>
+  {% endif %}
+
+  <div class="container container--narrow">
+    <div class="post__body">
+      {{ content | safe }}
+    </div>
+
+    {% if fonte %}
+    <aside class="post__source">
+      <strong>Fontes</strong>
+      {{ fonte | markdown | safe }}
+    </aside>
+    {% endif %}
+
+    {% if tags and tags.length %}
+    <p class="post__tags">{% for t in tags %}<span>{{ t }}</span>{% endfor %}</p>
+    {% endif %}
+
+    <nav class="post__share" aria-label="Compartilhar">
+      <span>Compartilhar:</span>
+      <a href="https://wa.me/?text={{ (title + ' ') | urlencode }}" data-share="whatsapp" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=" data-share="facebook" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url=" data-share="linkedin" target="_blank" rel="noopener">LinkedIn</a>
+      <button type="button" class="link-btn" data-share="copiar">Copiar link</button>
+    </nav>
+  </div>
+</article>
