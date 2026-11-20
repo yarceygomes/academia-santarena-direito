@@ -46,10 +46,22 @@ eleventyComputed:
 
         {% if p.resumo %}<p class="profile__lead">{{ p.resumo }}</p>{% endif %}
 
+        {% if p.episodio %}
+        <section class="profile__section profile__episode">
+          <h2>{{ p.episodio.titulo }}</h2>
+          {% for trecho in p.episodio.trechos %}
+          <p>{{ trecho.texto }}
+            {% for fonte in trecho.fontes %}<a class="profile__citation" href="#fonte-{{ fonte }}" aria-label="Fonte {{ fonte }}">[{{ fonte }}]</a>{% endfor %}
+          </p>
+          {% endfor %}
+        </section>
+        {% endif %}
         {% if p.biografia and p.biografia.length %}
         <section class="profile__section">
           <h2>Trajetória</h2>
-          {% for paragrafo in p.biografia %}<p>{{ paragrafo }}</p>{% endfor %}
+          {% for paragrafo in p.biografia %}<p>{{ paragrafo }}
+            {% if p.notasBiograficas %}{% for fonte in p.notasBiograficas[loop.index0] %}<a class="profile__citation" href="#fonte-{{ fonte }}" aria-label="Fonte {{ fonte }}">[{{ fonte }}]</a>{% endfor %}{% endif %}
+          </p>{% endfor %}
         </section>
         {% elif p.trajetoria and p.trajetoria.length %}
         <section class="profile__section">
@@ -116,7 +128,7 @@ eleventyComputed:
         <section class="profile__section">
           <h2>Fontes</h2>
           <ol class="sources">
-            {% for f in p.fontes %}<li><a href="{{ f.url }}"{% if f.url.startsWith('http') %} target="_blank" rel="noopener"{% endif %}>{{ f.titulo }}</a></li>{% endfor %}
+            {% for f in p.fontes %}<li id="fonte-{{ loop.index }}"><a href="{{ f.url }}"{% if f.url.startsWith('http') %} target="_blank" rel="noopener"{% endif %}>{{ f.titulo }}</a></li>{% endfor %}
           </ol>
         </section>
         {% endif %}
