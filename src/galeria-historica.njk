@@ -1,0 +1,30 @@
+---
+layout: layouts/pagina.njk
+title: Galeria histórica do Direito em Santarém
+secao: Memória
+descricao: Fotografias, manuscritos, discursos e histórias de quem fez a Justiça no Baixo Amazonas.
+permalink: /galeria-historica/
+---
+<div class="container memorial">
+<figure class="mem-vista"><a href="/img/historia-do-direito/santarem-biard-1862.webp"><img src="/img/historia-do-direito/santarem-biard-1862.webp" alt="Gravura da frente de Santarém vista do rio"></a><figcaption>Santarém vista do rio em gravura publicada em 1862, atribuída a Auguste François Biard. <a href="https://digital.bbm.usp.br/handle/bbm/3788">Biblioteca Brasiliana Guita e José Mindlin, USP</a>.</figcaption></figure>
+<nav class="mem-indice" aria-label="Seções da galeria"><a href="#comarca">Documentos da comarca</a>{% for s in salasHistoricas %}<a href="#{{ s.id }}">{{ s.titulo }}</a>{% endfor %}</nav>
+<details class="mem-nomes"><summary>Encontrar uma pessoa no acervo</summary><ul>{% for p in patronos.lista %}<li><a href="#cadeira-{{ p.numero }}">{{ p.nome }}</a></li>{% endfor %}</ul></details><section id="comarca"><h2>Documentos da comarca</h2>
+<p>Em 1827, discutia-se no Parlamento a criação de um lugar de juiz de fora para Santarém. Em 1881, Severiano recorria à Justiça para obter a liberdade. Já em 2023, uma edição extraordinária do Diário Oficial publicava as regras de pesca do Lago Grande do Curuai. Os três documentos abrem caminhos distintos pela história do Direito na região. <a href="/artigos/onde-se-fazia-justica-em-santarem/">Ler a história da comarca e consultar as fontes de cada episódio</a>.</p>
+<div class="mem-pecas">
+<figure class="historia-figura"><a href="https://arquivohistorico.camara.leg.br/index.php/br-dfcd-cd1-2-ppl-5pl-1827-22023-0249"><img src="/img/historia-do-direito/juiz-de-fora-1827.webp" alt="Folha manuscrita do projeto de juiz de fora para Santarém" loading="lazy"></a><figcaption>Projeto de João Cândido de Deus e Silva. A ficha do arquivo identifica a peça pelo código BR DFCD CD1-2-PPL-5PL-1827-22023-0249. <a href="https://arquivohistorico.camara.leg.br/index.php/br-dfcd-cd1-2-ppl-5pl-1827-22023-0249">Arquivo Histórico da Câmara dos Deputados</a>.</figcaption></figure>
+<figure class="historia-figura"><a href="https://hemeroteca-pdf.bn.gov.br/704555/per704555_1886_00179.pdf"><img src="/img/historia-do-direito/liberal-1886.webp" alt="Primeira página do jornal O Liberal do Pará de 11 de agosto de 1886" loading="lazy"></a><figcaption>Primeira página de <em>O Liberal do Pará</em> de 11 de agosto de 1886. Nessa edição, o nome de Severiano aparece no expediente relativo à execução do acórdão. <a href="https://hemeroteca-pdf.bn.gov.br/704555/per704555_1886_00179.pdf">Consultar o exemplar na Hemeroteca Digital da Biblioteca Nacional</a>.</figcaption></figure>
+<figure class="historia-figura"><a href="https://www.ioepa.com.br/arquivos/2023/2023.06.15.EXTRA.pdf"><img src="/img/historia-do-direito/acordo-curuai-2023.webp" alt="Página do Diário Oficial com a portaria e o mapa do acordo de pesca" loading="lazy"></a><figcaption>Portaria Semas nº 1.129, de 15 de junho de 2023. Na mesma página começam as disposições do acordo de pesca do Lago Grande do Curuai. <a href="https://www.ioepa.com.br/arquivos/2023/2023.06.15.EXTRA.pdf">Imprensa Oficial do Estado do Pará, edição extra, p. 6</a>.</figcaption></figure>
+</div></section>
+{% for sala in salasHistoricas %}
+<section id="{{ sala.id }}" class="mem-sala"><h2>{{ sala.titulo }}</h2><p>{{ sala.abertura }}</p>
+{% for p in sala.pessoas %}
+<article id="cadeira-{{ p.numero }}" class="mem-relato">
+<p class="kicker">{{ p.nome }}</p><h3>{{ p.episodio.titulo }}</h3>
+{% for t in p.episodio.trechos %}<p>{{ t.texto }} {% for n in t.fontes %}{% set f = p.fontes[n - 1] %}<a href="{{ f.url }}" title="{{ f.titulo }}" aria-label="{{ f.titulo }}">[{{ n }}]</a>{% endfor %}</p>{% endfor %}
+<div class="mem-pecas">
+{% if p.foto %}<figure><a href="{{ p.foto }}"><img loading="lazy" src="{{ p.foto }}" alt="Retrato de {{ p.nome }}"></a><figcaption>{{ p.nome }}. {% if p.fotoFonte %}<a href="{{ p.fotoFonte }}">{{ p.fotoCredito }}</a>{% else %}{{ p.fotoCredito }}{% endif %}</figcaption></figure>{% endif %}
+{% for item in p.pecas %}<figure><a href="{{ item.img }}"><img loading="lazy" src="{{ item.img }}" alt="{{ item.titulo }}"></a><figcaption><strong>{{ item.titulo }}</strong> {{ item.legenda }} <a href="{{ item.fonte }}">{{ item.credito }}</a>.</figcaption></figure>{% endfor %}
+{% for i in p.imagens %}<figure><a href="{{ i.url }}"><img loading="lazy" src="{{ i.url }}" alt="{{ i.alt }}"></a><figcaption>{{ i.legenda }} <a href="{{ i.fonte }}">{{ i.credito }}</a>.</figcaption></figure>{% endfor %}</div>
+<a href="/patronos/{{ p.nome | slugify }}/">Biografia e fontes de {{ p.nome }}</a>
+</article>{% endfor %}<a href="#comarca">Voltar aos documentos da comarca</a></section>
+{% endfor %}</div>
