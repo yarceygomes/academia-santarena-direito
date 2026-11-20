@@ -359,6 +359,10 @@ p { margin: 0 0 1em; }
 .post__body a { color: var(--green); }
 .post__body blockquote { margin: 1.8rem 0; padding: 0 0 0 1.25rem; border-left: 3px solid var(--green); font-style: italic; }
 .post__body img { margin: 1.5rem auto; }
+.historia-figura { margin: 2rem 0; }
+.historia-figura > a { display: block; background: var(--paper); }
+.post__body .historia-figura img { display: block; max-height: 44rem; margin: 0 auto; object-fit: contain; }
+.historia-figura figcaption { padding: .7rem 0; border-bottom: 1px solid var(--rule); color: var(--muted); font: .9375rem/1.5 var(--sans); }
 .post__body ul, .post__body ol { padding-left: 1.3rem; }
 .post__body li { margin-bottom: .4rem; }
 .post__body table { border-collapse: collapse; width: 100%; font-size: 1rem; }
