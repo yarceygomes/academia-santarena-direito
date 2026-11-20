@@ -1295,13 +1295,13 @@
       ],
       "imagens": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/A_Panelinha_%28original%2C_1901%29.jpg",
+          "url": "/img/patronos/panelinha-1901.webp",
           "alt": "Retrato coletivo de escritores e artistas em 1901",
           "legenda": "Inglês de Sousa é o terceiro em pé, da esquerda para a direita, no almoço de escritores e artistas no Hotel Rio Branco, em 1901.",
           "credito": "Acervo da Academia Brasileira de Letras, autoria desconhecida, domínio público",
-          "fonte": "https://commons.wikimedia.org/wiki/File:A_Panelinha_(original,_1901).jpg",
-          "largura": 2009,
-          "altura": 1396
+          "fonte": "https://www.academia.org.br/galeria/fundacao/panelinha-em-almoco-no-hotel-rio-branco",
+          "largura": 422,
+          "altura": 288
         }
       ],
       "episodio": {
