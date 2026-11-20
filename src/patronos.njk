@@ -7,19 +7,22 @@ permalink: /patronos/
 ---
 <section class="block">
   <div class="container">
-    <figure class="profile__photo" style="max-width:60rem;margin:0 auto 2rem">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Encontro_das_%C3%81guas_Tapaj%C3%B3s-Amazonas_Santar%C3%A9m.jpg" alt="Encontro dos rios Tapajós e Amazonas em Santarém" width="960" height="720" loading="lazy" style="width:100%;height:auto;aspect-ratio:auto;object-fit:contain">
-      <figcaption>Encontro do Tapajós com o Amazonas, em Santarém. <a href="https://commons.wikimedia.org/wiki/File:Encontro_das_%C3%81guas_Tapaj%C3%B3s-Amazonas_Santar%C3%A9m.jpg">Fotografia de Vitogustavo</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>.</figcaption>
+    <figure class="archive-banner">
+      <img src="/img/banner-posse.jpg" alt="Acadêmicos reunidos para a solenidade de posse da Academia Santarena de Direito">
+      <figcaption>Os acadêmicos fundadores na sessão solene de 21 de agosto de 2026. <a href="/galeria/">Acervo da Academia Santarena de Direito</a>.</figcaption>
     </figure>
     <ol class="patron-index">
       {% for p in patronos.lista %}
       {% set c = cadeiras.cadeiras[loop.index0] %}
       <li>
         <a href="/patronos/{{ p.nome | slugify }}/" class="patron-card">
-          {% if p.foto %}
-          <img src="{{ p.foto }}" alt="" loading="lazy">
-          {% else %}
-          <span class="patron-card__ph" aria-hidden="true">{{ p.numero }}</span>
+          {% if p.foto or (p.pecas and p.pecas.length) %}
+          <span class="archive-thumb{% if p.foto %} archive-thumb--portrait{% endif %}">
+            <img src="{{ p.foto or p.pecas[0].img }}" alt="" loading="lazy">
+            <small>{% if p.foto %}Retrato{% else %}{{ p.pecas[0].tipo }}{% endif %}</small>
+          </span>
+          {% elif p.registro %}
+          <span class="archive-thumb archive-thumb--text"><small>{{ p.registro.tipo }}</small><b>{{ p.registro.ano }}</b></span>
           {% endif %}
           <span class="patron-card__n">Cadeira {{ p.numero }}</span>
           <span class="patron-card__name">{{ p.nome }}</span>
@@ -30,6 +33,10 @@ permalink: /patronos/
       {% endfor %}
     </ol>
 
+    <figure class="archive-landscape">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Encontro_das_%C3%81guas_Tapaj%C3%B3s-Amazonas_Santar%C3%A9m.jpg" alt="Encontro do Tapajós com o Amazonas em Santarém" loading="lazy" width="960" height="720">
+      <figcaption>O encontro das águas em Santarém, em janeiro de 2014. <a href="https://commons.wikimedia.org/wiki/File:Encontro_das_%C3%81guas_Tapaj%C3%B3s-Amazonas_Santar%C3%A9m.jpg">Vitogustavo</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>.</figcaption>
+    </figure>
     <aside class="note-box">
       <h2>Ajude a completar estas biografias</h2>
       <p>

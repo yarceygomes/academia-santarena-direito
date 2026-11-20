@@ -122,15 +122,6 @@ layout: layouts/base.njk
         </a>
       </li>
       {% endif %}{% endfor %}
-      {% for p in patronos.lista %}{% if not p.foto and p.situacao == "completo" %}
-      <li>
-        <a href="/patronos/{{ p.nome | slugify }}/">
-          <span class="portraits__ph" aria-hidden="true">{{ p.numero }}</span>
-          <span class="portraits__n">Cadeira {{ p.numero }}</span>
-          <span class="portraits__name">{{ p.conhecidoComo or p.nome }}</span>
-        </a>
-      </li>
-      {% endif %}{% endfor %}
     </ul>
   </div>
 </section>

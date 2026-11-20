@@ -19,7 +19,7 @@
           "url": "/blog/2026-07-10-por-que-o-escolhi-como-patrono/"
         },
         {
-          "titulo": "José Ronaldo Dias Campos, “Justiça irmanada dentro e fora do expediente forense” (2015)",
+          "titulo": "Ismaelino Valente e José Ronaldo Dias Campos, memórias do foro de Santarém (2015)",
           "url": "/blog/2015-02-07-justica-irmanada-dentro-e-fora-do/"
         }
       ],
@@ -33,6 +33,16 @@
         {
           "titulo": "Retrato e memória de Silvério na imprensa local",
           "url": "https://aldeianews.com.br/2021/08/09/silverio-sirotheau-a-rua-que-homenageia-um-dos-advogados-e-poetas-mais-notaveis-de-santarem/"
+        }
+      ],
+      "pecas": [
+        {
+          "img": "/img/patronos/album-1948-44.webp",
+          "tipo": "Álbum de 1948",
+          "titulo": "O nome de Silvério no cadastro de 1948",
+          "legenda": "Na relação dos profissionais domiciliados em Santarém, Silvério aparece ao lado de Nestor Orlando Miléo, também identificado como advogado.",
+          "credito": "Fundação Cultural do Pará, folha 44",
+          "fonte": "https://obrasraras.fcp.pa.gov.br/publication/file/livros/santarem-album-comemorativo-do-centenario-de-santarem/44/"
         }
       ]
     },
@@ -53,19 +63,32 @@
         {
           "titulo": "Diário do Pará, “Juiz federal paraense José Airton Portela morre durante tratamento”",
           "url": "https://diariodopara.com.br/para/juiz-federal-paraense-jose-airton-portela-morre-durante-tratamento/"
+        },
+        {
+          "titulo": "TRF1, nota institucional de 24 de março de 2026",
+          "url": "https://trf1.jus.br/trf1/noticias/nota-de-pesar-trf1-lamenta-morte-do-juiz-federal-jose-airton-de-aguiar-portela-"
+        },
+        {
+          "titulo": "Prefeitura de Santarém, entrega da Medalha Padre Felipe Bettendorf",
+          "url": "https://santarem.pa.gov.br/noticias/gerais/festa-e-presente-para-santarem-na-entrega-da-medalha-padre-felipe-bettendorf-4086912470bb-1315-4b6e-93e7-ceba9733ee86"
         }
       ],
       "situacao": "completo",
       "biografia": [
-        "Nascido em Coreaú, no Ceará, chegou a Santarém ainda menino. Formou-se em Direito pela Universidade Federal do Amapá em 1995 e ingressou na magistratura federal em fevereiro de 2003. Dirigiu o foro da Subseção Judiciária de Santarém e foi titular da 9ª Vara Federal do Pará, voltada a questões ambientais e agrárias.",
-        "A passagem pelas duas unidades situa sua carreira em uma dimensão concreta da Justiça Federal na Amazônia: a atuação em uma cidade do interior e a especialização em litígios ligados ao território. A Subseção de Santarém reuniu magistrados, servidores, estagiários e colaboradores para homenageá-lo após sua morte, aos 56 anos."
+        "A Prefeitura de Santarém registra que José Airton nasceu em Coreaú, no Ceará, em 11 de novembro de 1969, e chegou a Santarém aos cinco anos. Ao receber a Medalha Padre Felipe Bettendorf, em 2019, dedicou a distinção aos santarenos.",
+        "Graduou-se em Direito pela Universidade Federal do Amapá em 1995, estudou Direito Ambiental e Políticas Públicas na UFPA e concluiu o mestrado na Universidade Autónoma de Lisboa. Antes de assumir a magistratura, atuou na advocacia pública. Dirigiu o foro da Subseção Judiciária de Santarém e foi titular da 9ª Vara Federal do Pará.",
+        "No Tribunal Regional Eleitoral do Pará, exerceu a ouvidoria substituta entre 2023 e 2024 e a titular entre 2024 e 2025. Também lecionou e publicou o Manual de Direito Constitucional, em dois volumes. Faleceu em São Paulo em 23 de março de 2026."
       ],
       "acervo": [
         {
           "titulo": "Registro da homenagem da Subseção Judiciária de Santarém",
           "url": "https://trf1.jus.br/sjpa/noticias/subsecao-judiciaria-de-santarem-presta-homenagens-nas-despedidas-ao-juiz-federal-jose-airton-portela"
         }
-      ]
+      ],
+      "foto": "/img/patronos/airton-portela.webp",
+      "fotoCredito": "Assessoria de Comunicação Social do TRF da 1ª Região",
+      "fotoFonte": "https://trf1.jus.br/trf1/noticias/nota-de-pesar-trf1-lamenta-morte-do-juiz-federal-jose-airton-de-aguiar-portela-",
+      "falecimento": "23 de março de 2026, São Paulo (SP)"
     },
     {
       "numero": 3,
@@ -80,12 +103,20 @@
         {
           "titulo": "José Ronaldo Dias Campos, “OAB, Subseção de Santarém, completa 35 anos” (2014)",
           "url": "/blog/2014-05-24-oab-subsecao-de-santarem-completa-35/"
+        },
+        {
+          "titulo": "Galeria histórica da presidência da OAB em Santarém, reproduzida em 2019",
+          "url": "/blog/2019-06-02-historia-da-oab-no-para-especialmente/"
         }
       ],
       "situacao": "parcial",
       "biografia": [
-        "Ao reconstituir os primeiros 35 anos da Subseção, José Ronaldo Dias Campos inclui Evandro Diniz Soares entre os dirigentes que sucederam a gestão inaugural. A entidade, criada em 1979, deu à advocacia santarena uma representação própria no Conselho Seccional do Pará. É nesse capítulo da organização da classe no oeste do estado que se documenta a atuação de Evandro."
-      ]
+        "Ao reconstituir os primeiros 35 anos da Subseção, José Ronaldo Dias Campos inclui Evandro Diniz Soares entre os dirigentes que sucederam a gestão inaugural. A entidade, criada em 1979, deu à advocacia santarena uma representação própria no Conselho Seccional do Pará. É nesse capítulo da organização da classe no oeste do estado que se documenta a atuação de Evandro.",
+        "Na galeria da Subseção, Evandro figura como seu quarto presidente, no biênio de 1993 a 1995. Sucedeu a José Ronaldo Dias Campos e foi sucedido por Miguel Borghezan."
+      ],
+      "foto": "/img/blog/2019/7ee568b47dcbda43.jpg",
+      "fotoCredito": "Galeria de presidentes da OAB, Subseção de Santarém",
+      "fotoFonte": "/blog/2019-06-02-historia-da-oab-no-para-especialmente/"
     },
     {
       "numero": 4,
@@ -110,7 +141,17 @@
           "url": "https://sidcanto.blogspot.com/2016/03/memoria-da-propaganda-educacao.html?m=0"
         }
       ],
-      "atividade": "Advogado, magistrado e educador"
+      "atividade": "Advogado, magistrado e educador",
+      "pecas": [
+        {
+          "img": "/img/patronos/album-1948-74.webp",
+          "tipo": "Álbum de 1948",
+          "titulo": "A rua da família Barata",
+          "legenda": "A primeira vista da prancha mostra a Rua Floriano Peixoto. Nas recordações reunidas por Vicente Malheiros da Fonseca, foi nessa rua que viveram, em casas vizinhas, as famílias de Ruy Barata e Wilson Fonseca.",
+          "credito": "Fundação Cultural do Pará, folha 74",
+          "fonte": "https://obrasraras.fcp.pa.gov.br/publication/file/livros/santarem-album-comemorativo-do-centenario-de-santarem/74/"
+        }
+      ]
     },
     {
       "numero": 5,
@@ -147,6 +188,16 @@
           "titulo": "Edição digitalizada de Operariado Nacional e os novos Calabares",
           "url": "https://obrasraras.fcp.pa.gov.br/publication/operariado-nacional-e-os-novos-calabares-1918/"
         }
+      ],
+      "pecas": [
+        {
+          "img": "/img/patronos/album-1948-08.webp",
+          "tipo": "Álbum de 1948",
+          "titulo": "Augusto Meira no álbum do centenário",
+          "legenda": "O álbum municipal de 1948 apresenta o retrato de Augusto Meira com o título de senador federal.",
+          "credito": "Fundação Cultural do Pará, folha 8",
+          "fonte": "https://obrasraras.fcp.pa.gov.br/publication/file/livros/santarem-album-comemorativo-do-centenario-de-santarem/8/"
+        }
       ]
     },
     {
@@ -156,13 +207,23 @@
       "resumo": "Benedito Davi Bulamarqui de Moraes exerceu a advocacia em Santarém.",
       "fontes": [
         {
-          "titulo": "José Ronaldo Dias Campos, “Justiça irmanada dentro e fora do expediente forense” (2015)",
+          "titulo": "Ismaelino Valente e José Ronaldo Dias Campos, Justiça irmanada dentro e fora do expediente forense (2015)",
           "url": "/blog/2015-02-07-justica-irmanada-dentro-e-fora-do/"
         }
       ],
       "situacao": "parcial",
       "biografia": [
-        "Seu nome integra a relação de advogados reunida por José Ronaldo Dias Campos ao recordar a convivência profissional no antigo foro santareno. O relato situa Bulamarqui de Moraes no cotidiano da comarca e conserva sua vinculação com a advocacia local, da qual a Cadeira 6 guarda a memória."
+        "O promotor Ismaelino Valente, que chegou a Santarém em 1977, inclui Bulamarqui de Moraes entre os advogados mais antigos com quem conviveu na comarca. Seu depoimento, reproduzido por José Ronaldo Dias Campos em 2015, distingue essa geração dos profissionais cujo ingresso na advocacia ele próprio acompanhou. Valente emprega a grafia Benedito David Bulamarque de Moraes."
+      ],
+      "pecas": [
+        {
+          "img": "/img/patronos/album-1948-12.webp",
+          "tipo": "Álbum de 1948",
+          "titulo": "Um tabelião entre os organizadores do álbum",
+          "legenda": "A prancha identifica Santino Sirotheau Corrêa como tabelião do 2º Ofício. É um registro de como as antigas serventias participavam também da vida intelectual de Santarém. Décadas mais tarde, as memórias do foro recordariam o convívio entre advogados, magistrados e serventuários.",
+          "credito": "Fundação Cultural do Pará, folha 12",
+          "fonte": "https://obrasraras.fcp.pa.gov.br/publication/file/livros/santarem-album-comemorativo-do-centenario-de-santarem/12/"
+        }
       ]
     },
     {
@@ -186,13 +247,21 @@
         {
           "titulo": "José Ronaldo Dias Campos, “OAB, Subseção de Santarém, completa 35 anos” (2014)",
           "url": "/blog/2014-05-24-oab-subsecao-de-santarem-completa-35/"
+        },
+        {
+          "titulo": "Galeria histórica da presidência da OAB em Santarém, reproduzida em 2019",
+          "url": "/blog/2019-06-02-historia-da-oab-no-para-especialmente/"
         }
       ],
       "situacao": "parcial",
       "biografia": [
         "A criação da Subseção em 1979 marcou a organização institucional da advocacia no município. Coube a Benedito Fernandes da Silva presidir sua primeira diretoria. O registro dessa gestão permite situar a homenagem da Academia no início da representação própria da classe em Santarém.",
-        "A Subseção perpetua o nome de seu primeiro presidente em uma comenda entregue nas celebrações do Dia da Advocacia. A honraria mantém seu nome associado à história da instituição que ajudou a instalar."
-      ]
+        "A Subseção perpetua o nome de seu primeiro presidente em uma comenda entregue nas celebrações do Dia da Advocacia. A honraria mantém seu nome associado à história da instituição que ajudou a instalar.",
+        "A galeria da Ordem registra três biênios consecutivos à frente da entidade, de 1979 a 1985. José Olivar de Azevedo sucedeu ao primeiro presidente."
+      ],
+      "foto": "/img/blog/2019/17d718e0500c7a7f.jpg",
+      "fotoCredito": "Galeria de presidentes da OAB, Subseção de Santarém",
+      "fotoFonte": "/blog/2019-06-02-historia-da-oab-no-para-especialmente/"
     },
     {
       "numero": 8,
@@ -237,7 +306,10 @@
           "titulo": "Fotografias da Assembleia Nacional Constituinte no Arquivo da Câmara",
           "url": "https://arquivohistorico.camara.leg.br/index.php/br-dfcd-ac1988-xiv-ft-n-847"
         }
-      ]
+      ],
+      "foto": "/img/patronos/benedicto-monteiro.webp",
+      "fotoCredito": "Acervo da Câmara dos Deputados",
+      "fotoFonte": "https://www.camara.leg.br/deputados/139158/biografia"
     },
     {
       "numero": 9,
@@ -257,7 +329,17 @@
           "url": "https://www.guaranyjunior.com.br/2026/08/16/fundacao-da-academia-santarena-de-direito-asd-acontece-dia-21-de-agosto/"
         }
       ],
-      "atividade": "Advogado e político"
+      "atividade": "Advogado e político",
+      "pecas": [
+        {
+          "img": "/img/patronos/album-1948-24.webp",
+          "tipo": "Álbum de 1948",
+          "titulo": "O palacete da Prefeitura",
+          "legenda": "A prancha mostra a sede do governo municipal e o Teatro Vitória em 1948. O prefeito fotografado no gabinete é Aderbal Corrêa. A imagem documenta o edifício da instituição que Bernardo também dirigiu.",
+          "credito": "Fundação Cultural do Pará, folha 24",
+          "fonte": "https://obrasraras.fcp.pa.gov.br/publication/file/livros/santarem-album-comemorativo-do-centenario-de-santarem/24/"
+        }
+      ]
     },
     {
       "numero": 10,
@@ -284,6 +366,16 @@
         {
           "titulo": "Retrato e documentos no volume de homenagem do TJPA",
           "url": "https://bibliotecadigital.tjpa.jus.br/items/232d338e-8430-455a-a6a4-4764239e7772"
+        }
+      ],
+      "pecas": [
+        {
+          "img": "/img/patronos/caderno-montalvao.webp",
+          "tipo": "Documento",
+          "titulo": "O volume dedicado a Cláudio Montalvão",
+          "legenda": "Capa do volume 32 da série Perfil dos Magistrados. O exemplar reúne registros do trabalho no Tribunal, fotografias familiares e imagens de objetos pessoais, entre eles a toga do desembargador.",
+          "credito": "Biblioteca Digital do TJPA, Belém, 2023",
+          "fonte": "https://bibliotecadigital.tjpa.jus.br/items/232d338e-8430-455a-a6a4-4764239e7772"
         }
       ]
     },
@@ -318,7 +410,10 @@
           "titulo": "Retrato parlamentar na Câmara dos Deputados",
           "url": "https://www.camara.leg.br/deputados/74086/biografia"
         }
-      ]
+      ],
+      "foto": "/img/patronos/ubaldo-correa.webp",
+      "fotoCredito": "Acervo da Câmara dos Deputados",
+      "fotoFonte": "https://www.camara.leg.br/deputados/74086/biografia"
     },
     {
       "numero": 12,
@@ -336,7 +431,17 @@
         }
       ],
       "atividade": "Advogado e juiz do Trabalho",
-      "falecimento": "25 de abril de 2021"
+      "falecimento": "25 de abril de 2021",
+      "pecas": [
+        {
+          "img": "/img/patronos/mocao-jennings.webp",
+          "tipo": "Documento",
+          "titulo": "A homenagem da Câmara de Santarém",
+          "legenda": "A moção descreve a advocacia trabalhista que Dennis Jennings exerceu em Santarém e a jurisdição da Vara do Trabalho de Itaituba.",
+          "credito": "Câmara Municipal de Santarém, Moção 109/2021",
+          "fonte": "https://sapl.santarem.pa.leg.br/media/sapl/public/materialegislativa/2021/15448/mocao_109_2021_960_aguinaldo_promissoria_pesar_dr_dennis_jorge_vieira_jennings.pdf"
+        }
+      ]
     },
     {
       "numero": 13,
@@ -345,6 +450,7 @@
       "resumo": "Ernesto Adolfo de Vasconcelos Chaves foi advogado, desembargador e presidente da Província do Amazonas no final do Império.",
       "biografia": [
         "Paraibano de nascimento, Ernesto Chaves exerceu a presidência da Província do Amazonas entre outubro de 1885 e janeiro de 1887, após nomeação por carta imperial. Sua carreira prosseguiu na magistratura e sua memória institucional ficou ligada ao Tribunal de Justiça do Pará.",
+        "Ernesto Chaves já tinha exercido a promotoria em Pilar e a magistratura em Bananeiras, na Paraíba, quando assumiu o juízo de Santarém, em 1879. A galeria de ex-presidentes do Tribunal paraense registra sua passagem pela Vara da Fazenda em 1887 e sua eleição para a presidência da Corte em julho de 1894.",
         "A Academia Paraense de Letras Jurídicas, onde também é patrono da Cadeira 16, publica um perfil que permite acompanhar a passagem da administração imperial à vida jurídica paraense. O Tribunal de Justiça conserva seu registro na galeria histórica de presidentes."
       ],
       "fontes": [
@@ -369,6 +475,16 @@
           "titulo": "Manuscritos do Museu Imperial sobre a administração provincial",
           "url": "https://dami.museuimperial.museus.gov.br/dami/handle/acervo/9987"
         }
+      ],
+      "pecas": [
+        {
+          "img": "/img/patronos/galeria-do-tribunal.webp",
+          "tipo": "Documento",
+          "titulo": "A galeria histórica do Tribunal",
+          "legenda": "A ficha de Ernesto Chaves registra seu exercício como juiz de Direito em Santarém em 1879 e a eleição para a presidência do Tribunal em 4 de julho de 1894.",
+          "credito": "TJPA, Galeria dos ex-presidentes do TJE, página 48",
+          "fonte": "https://www.tjpa.jus.br/CMSPortal/VisualizarArquivo?idArquivo=449961"
+        }
       ]
     },
     {
@@ -386,7 +502,7 @@
           "url": "https://ercioafonso.blogspot.com/2023/?m=1"
         },
         {
-          "titulo": "José Ronaldo Dias Campos, “Justiça irmanada dentro e fora do expediente forense” (2015)",
+          "titulo": "Ismaelino Valente e José Ronaldo Dias Campos, memórias do foro de Santarém (2015)",
           "url": "/blog/2015-02-07-justica-irmanada-dentro-e-fora-do/"
         }
       ],
@@ -400,14 +516,30 @@
           "titulo": "Retrato da Presidência no Centro de Memória Digital do TJPA",
           "url": "https://memoriadigital.tjpa.jus.br/index.php/image-06%3Bisad"
         }
-      ]
+      ],
+      "pecas": [
+        {
+          "img": "/img/patronos/album-1948-24.webp",
+          "tipo": "Álbum de 1948",
+          "titulo": "O teatro que abrigou o expediente judicial",
+          "legenda": "O Teatro Vitória, identificado na prancha com o palacete municipal, seria lembrado como um dos lugares de atendimento da Justiça em Santarém antes da instalação do fórum.",
+          "credito": "Fundação Cultural do Pará, folha 24",
+          "fonte": "https://obrasraras.fcp.pa.gov.br/publication/file/livros/santarem-album-comemorativo-do-centenario-de-santarem/24/"
+        }
+      ],
+      "foto": "/img/patronos/albanira-no-tribunal.webp",
+      "fotoCredito": "Centro de Memória Digital do Tribunal de Justiça do Pará, gestão 2007 a 2009",
+      "fotoFonte": "https://memoriadigital.tjpa.jus.br/index.php/image-06%3Bisad"
     },
     {
       "numero": 15,
       "nome": "Zulmira Mota de Azevedo",
-      "situacao": "em-elaboracao",
-      "resumo": "Zulmira Mota de Azevedo é patrona da Cadeira 15 da Academia Santarena de Direito.",
-      "biografia": [],
+      "situacao": "parcial",
+      "resumo": "Zulmira Mota de Azevedo integrou a advocacia santarena na geração recordada pelo promotor de Justiça Ismaelino Valente.",
+      "biografia": [
+        "Transferido de Oriximiná para Santarém em 1977, Ismaelino Valente testemunhou o início da carreira de Zulmira. No relato publicado em 2015, ela aparece ao lado de Ana Elvira Alho, Tito Viana e outros colegas com quem o promotor conviveu na comarca.",
+        "Na recordação de Valente, a vida profissional reunia os advogados, os juízes, os promotores e os escreventes dos antigos ofícios. É nesse ambiente, descrito por quem nele trabalhou, que se pode situar o começo da trajetória profissional de Zulmira."
+      ],
       "fontes": [
         {
           "titulo": "Academia Santarena de Direito, quadro de cadeiras e patronos",
@@ -416,9 +548,23 @@
         {
           "titulo": "Portal Guarany Júnior, anúncio da solenidade inaugural",
           "url": "https://www.guaranyjunior.com.br/2026/08/16/fundacao-da-academia-santarena-de-direito-asd-acontece-dia-21-de-agosto/"
+        },
+        {
+          "titulo": "Ismaelino Valente e José Ronaldo Dias Campos, Justiça irmanada dentro e fora do expediente forense (2015)",
+          "url": "/blog/2015-02-07-justica-irmanada-dentro-e-fora-do/"
         }
       ],
-      "nota": "A cobertura da fundação registra o nome Zulmira Mota entre as homenageadas. A documentação biográfica da patrona ainda está em levantamento."
+      "pecas": [
+        {
+          "img": "/img/patronos/album-1948-12.webp",
+          "tipo": "Álbum de 1948",
+          "titulo": "Um tabelião entre os organizadores do álbum",
+          "legenda": "A prancha identifica Santino Sirotheau Corrêa como tabelião do 2º Ofício. É um registro de como as antigas serventias participavam também da vida intelectual de Santarém. Décadas mais tarde, as memórias do foro recordariam o convívio entre advogados, magistrados e serventuários.",
+          "credito": "Fundação Cultural do Pará, folha 12",
+          "fonte": "https://obrasraras.fcp.pa.gov.br/publication/file/livros/santarem-album-comemorativo-do-centenario-de-santarem/12/"
+        }
+      ],
+      "atividade": "Advogada"
     },
     {
       "numero": 16,
@@ -485,7 +631,15 @@
           "url": "https://www.trt8.jus.br/sites/portal/files/pdfs/resolucao_102_cnj/2018/Resolucao102-CNJ_2018-02_Anexo-VIII.pdf"
         }
       ],
-      "atividade": "Analista judiciária"
+      "atividade": "Analista judiciária",
+      "registro": {
+        "tipo": "Registro funcional",
+        "titulo": "Analista judiciária da área administrativa",
+        "ano": "2018",
+        "texto": "Na relação de fevereiro de 2018, o TRT da 8ª Região identifica Iêda entre as servidoras aposentadas. O cargo e a área de atuação constam na página 54.",
+        "fonte": "https://www.trt8.jus.br/sites/portal/files/pdfs/resolucao_102_cnj/2018/Resolucao102-CNJ_2018-02_Anexo-VIII.pdf",
+        "credito": "TRT da 8ª Região, quadro de pessoal de fevereiro de 2018, p. 54"
+      }
     },
     {
       "numero": 18,
@@ -511,6 +665,16 @@
         {
           "titulo": "Documentação arqueológica e imagens da coleção tapajônica",
           "url": "https://revistas.usp.br/revmae/article/download/109277/107775/195968"
+        }
+      ],
+      "pecas": [
+        {
+          "img": "/img/blog/2026/23e0401e7b9a7df6.jpg",
+          "tipo": "Fotografia",
+          "titulo": "O advogado entre os livros e a cerâmica",
+          "legenda": "Registro reproduzido no ensaio sobre a coleção de Ubirajara. A biblioteca e as peças tapajônicas aparecem no mesmo ambiente.",
+          "credito": "José Ronaldo Dias Campos, O advogado colecionador, 2026",
+          "fonte": "/blog/2026-06-08-ubirajara-o-advogado-colecionador/"
         }
       ]
     },
@@ -538,15 +702,24 @@
           "titulo": "Retrato de Sant Ana Pereira na cobertura da homenagem",
           "url": "https://www.romanews.com.br/rm-informa/advogado-e-escritor-dr-sant-ana-pereira-e-homenageado-na-academia-santarena-de-direito-0826"
         }
-      ]
+      ],
+      "registro": {
+        "tipo": "Bibliografia",
+        "titulo": "A ficção e o Direito na mesma estante",
+        "ano": "2026",
+        "texto": "A notícia da homenagem reúne títulos de ficção, como Os Palmitais e Invenção de Onira, e registra também Defesa do Devedor. A indicação para a cadeira partiu de Hebert Tadeu Pereira de Matos.",
+        "fonte": "https://www.romanews.com.br/rm-informa/advogado-e-escritor-dr-sant-ana-pereira-e-homenageado-na-academia-santarena-de-direito-0826",
+        "credito": "Roma News, biografia e homenagem a Sant Ana Pereira"
+      }
     },
     {
       "numero": 20,
       "nome": "Tito José Viana da Silva",
       "situacao": "parcial",
-      "resumo": "Tito José Viana da Silva foi advogado e procurador. A unidade da Defensoria Pública do Pará em Santarém recebeu seu nome.",
+      "resumo": "Advogado e procurador, Tito José Viana da Silva dá nome à unidade da Estação Cidadania em Santarém.",
       "biografia": [
-        "A denominação da unidade de Santarém está registrada no Diário Oficial do Estado de 4 de maio de 2015. A Defensoria Pública mantém a referência no cadastro das suas unidades. O nome de Tito Viana ficou, assim, associado na cidade ao local em que a população procura orientação e assistência jurídica."
+        "Na lembrança do promotor Ismaelino Valente, Tito Viana pertenceu à geração de advogados cujo início de carreira ele acompanhou depois de chegar à comarca, em 1977. Ao registrar seu falecimento, em maio de 2013, a imprensa santarena o identificou como advogado e procurador.",
+        "Dois anos depois, o Estado do Pará deu seu nome à unidade da Estação Cidadania no município. A Lei estadual nº 8.169 foi sancionada em 28 de abril de 2015 e publicada no Diário Oficial em 4 de maio. O artigo primeiro identifica por extenso a unidade homenageada."
       ],
       "fontes": [
         {
@@ -554,15 +727,25 @@
           "url": "https://ioepa.com.br/pages/2015/2015.05.04.DOE.pdf"
         },
         {
-          "titulo": "Defensoria Pública do Pará, cadastro das unidades",
-          "url": "https://defensoria.pa.def.br/localizar-defensorias"
-        },
-        {
           "titulo": "O Impacto, registro do falecimento de Tito Viana",
           "url": "https://oimpacto.com.br/2013/05/advogado-e-procurador-tito-viana-morre-em-belem/"
+        },
+        {
+          "titulo": "Ismaelino Valente e José Ronaldo Dias Campos, memórias do foro de Santarém (2015)",
+          "url": "/blog/2015-02-07-justica-irmanada-dentro-e-fora-do/"
         }
       ],
-      "atividade": "Advogado e procurador"
+      "atividade": "Advogado e procurador",
+      "pecas": [
+        {
+          "img": "/img/patronos/lei-tito-viana.webp",
+          "tipo": "Documento",
+          "titulo": "A lei que nomeou a Estação Cidadania",
+          "legenda": "No alto da primeira coluna está a Lei nº 8.169, de 28 de abril de 2015.",
+          "credito": "Imprensa Oficial do Pará, edição de 4 de maio de 2015, p. 5",
+          "fonte": "https://ioepa.com.br/pages/2015/2015.05.04.DOE.pdf"
+        }
+      ]
     },
     {
       "numero": 21,
@@ -589,6 +772,16 @@
           "titulo": "Registro fotográfico da sessão da Assembleia Legislativa",
           "url": "https://www.alepa.pa.gov.br/Comunicacao/Noticia/10485/deputados-reconhecem-obra-de-jose-wilson-malheiros-da-fonseca-como-patrimonio-cultural-do-estado"
         }
+      ],
+      "pecas": [
+        {
+          "img": "/img/patronos/ata-jose-wilson.webp",
+          "tipo": "Documento",
+          "titulo": "A memória de José Wilson no Tribunal",
+          "legenda": "A ata da sessão de 2 de julho de 2024 registra a manifestação da Quarta Turma por ocasião de seu falecimento.",
+          "credito": "Tribunal Regional do Trabalho da 8ª Região",
+          "fonte": "https://www.trt8.jus.br/sites/portal/files/pdfs/pauta_e_ata_de_sessao/ata_de_sessao_2024-07-02_4a_turma_id40974.pdf"
+        }
       ]
     },
     {
@@ -602,7 +795,7 @@
           "url": "https://repositorio.ufpa.br/server/api/core/bitstreams/d1142a7f-b2c3-4e49-8018-cc7c3311883e/content"
         },
         {
-          "titulo": "José Ronaldo Dias Campos, “Justiça irmanada dentro e fora do expediente forense” (2015)",
+          "titulo": "Ismaelino Valente e José Ronaldo Dias Campos, memórias do foro de Santarém (2015)",
           "url": "/blog/2015-02-07-justica-irmanada-dentro-e-fora-do/"
         }
       ],
@@ -611,7 +804,17 @@
         "A pesquisa preservada no Repositório da UFPA registra sua formação em Direito em 1944 e a atuação como promotor em Santarém, Monte Alegre, Faro, Prainha e Belém. Os registros do foro santareno também o incluem entre os profissionais da advocacia local.",
         "A mesma pesquisa documenta seu nome no expediente da revista Belém Nova como redator ligado a Santarém. Essa presença mostra como a imprensa da capital incorporava colaboradores do interior e ajuda a situar Miléo na vida intelectual paraense, além de sua atuação no foro."
       ],
-      "falecimento": "22 de junho de 1987"
+      "falecimento": "22 de junho de 1987",
+      "pecas": [
+        {
+          "img": "/img/patronos/album-1948-44.webp",
+          "tipo": "Álbum de 1948",
+          "titulo": "Dois advogados no cadastro da cidade",
+          "legenda": "Publicado em 1948, quatro anos depois da formatura de Miléo, o álbum registra seu nome entre os profissionais que exerciam a advocacia em Santarém.",
+          "credito": "Fundação Cultural do Pará, folha 44",
+          "fonte": "https://obrasraras.fcp.pa.gov.br/publication/file/livros/santarem-album-comemorativo-do-centenario-de-santarem/44/"
+        }
+      ]
     },
     {
       "numero": 23,
@@ -619,6 +822,7 @@
       "situacao": "parcial",
       "resumo": "Raimundo Oeiras Freire figura na relação inaugural de patronos da Academia Santarena de Direito.",
       "biografia": [
+        "Em 2023, o projeto de decreto legislativo que propôs uma homenagem ao advogado santareno Rivaldo Valente Freire identificou Raimundo Oeiras Freire como seu pai. O documento acrescenta uma referência familiar local ao nome preservado pela Academia.",
         "Um levantamento baseado em dados do Tribunal Superior Eleitoral registra uma candidatura com esse nome a deputado estadual pelo Pará em 1990. A identificação do candidato com o patrono ainda depende de confirmação em outra fonte."
       ],
       "fontes": [
@@ -629,8 +833,20 @@
         {
           "titulo": "Portal Guarany Júnior, anúncio da solenidade inaugural",
           "url": "https://www.guaranyjunior.com.br/2026/08/16/fundacao-da-academia-santarena-de-direito-asd-acontece-dia-21-de-agosto/"
+        },
+        {
+          "titulo": "Câmara Municipal de Santarém, projeto de homenagem a Rivaldo Valente Freire (2023)",
+          "url": "https://sapl.santarem.pa.leg.br/media/sapl/public/materialegislativa/2023/26662/proj_dec_leg_3603_2023_angelo_tap_hm_ilmo_sr._rivaldo_valente_freire.pdf"
         }
-      ]
+      ],
+      "registro": {
+        "tipo": "Registro municipal",
+        "titulo": "O nome de Raimundo nos arquivos da Câmara",
+        "ano": "2023",
+        "texto": "A justificativa de um projeto de homenagem a Rivaldo Valente Freire identifica Raimundo Oeiras Freire como pai do advogado santareno.",
+        "fonte": "https://sapl.santarem.pa.leg.br/media/sapl/public/materialegislativa/2023/26662/proj_dec_leg_3603_2023_angelo_tap_hm_ilmo_sr._rivaldo_valente_freire.pdf",
+        "credito": "Câmara Municipal de Santarém, projeto de homenagem a Rivaldo Valente Freire (2023)"
+      }
     },
     {
       "numero": 24,
@@ -645,9 +861,23 @@
         {
           "titulo": "Revista HISTEDBR On-line, A instrução pública nas páginas do jornal católico O Mariano (1935–1956)",
           "url": "https://periodicos.sbu.unicamp.br/ojs/index.php/histedbr/article/download/8668349/32508/156298"
+        },
+        {
+          "titulo": "Ismaelino Valente, magistratura e antigos ofícios de Santarém",
+          "url": "/blog/2015-02-07-justica-irmanada-dentro-e-fora-do/"
         }
       ],
-      "atividade": "Juiz do Trabalho"
+      "atividade": "Juiz do Trabalho",
+      "pecas": [
+        {
+          "img": "/img/patronos/album-1948-12.webp",
+          "tipo": "Álbum de 1948",
+          "titulo": "As serventias e a vida da comarca",
+          "legenda": "A prancha registra o tabelião do 2º Ofício como organizador da publicação. Em seu testemunho sobre a comunidade forense de outra época, Ismaelino Valente situa Reinaldo entre os juízes trabalhistas de Santarém.",
+          "credito": "Fundação Cultural do Pará, folha 12",
+          "fonte": "https://obrasraras.fcp.pa.gov.br/publication/file/livros/santarem-album-comemorativo-do-centenario-de-santarem/12/"
+        }
+      ]
     },
     {
       "numero": 25,
@@ -676,6 +906,18 @@
           "titulo": "Nota e registro da Associação Comercial de Santarém",
           "url": "https://acestapajos.com.br/nota-de-pesar-roberto-alves-vinholte/"
         }
+      ],
+      "pecas": [
+        {
+          "img": "/img/patronos/parintins.webp",
+          "tipo": "Fotografia",
+          "titulo": "O festival em que Beto atuou",
+          "legenda": "Registro do Festival de Parintins em junho de 2018. A agremiação Garantido recorda a participação de Roberto na defesa de seus interesses durante o festival.",
+          "credito": "Ministério da Cultura",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Festival_de_Parintins_%2842610629385%29.jpg",
+          "licenca": "CC BY 2.0",
+          "licencaUrl": "https://creativecommons.org/licenses/by/2.0/"
+        }
       ]
     },
     {
@@ -694,6 +936,10 @@
         {
           "titulo": "Memorial César Leite, entrevista com Ruy Antonio Barata",
           "url": "https://memorialcesarleite.com.br/storage/depoimentos/dfgSTNK33UILcuKkCChrTKuenm8uafHCgRL6JxAR.pdf"
+        },
+        {
+          "titulo": "Vicente Malheiros da Fonseca, O santareno Ruy Barata",
+          "url": "https://uruatapera.com/o-santareno-ruy-barata/"
         }
       ],
       "situacao": "completo",
@@ -705,6 +951,34 @@
         "Anjo dos abismos",
         "A linha imaginária",
         "O nativo de câncer"
+      ],
+      "pecas": [
+        {
+          "img": "/img/patronos/estatua-ruy.webp",
+          "tipo": "Fotografia",
+          "titulo": "O poeta em Belém",
+          "legenda": "A estátua de Ruy Barata em Belém, fotografada em setembro de 2023.",
+          "credito": "Túllio F",
+          "fonte": "https://commons.wikimedia.org/wiki/File:Est%C3%A1tua_de_Ruy_Barata_-_Bel%C3%A9m-PA_02_%28cropped%29.jpg",
+          "licenca": "CC BY-SA 4.0",
+          "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        {
+          "img": "/img/patronos/album-1948-74.webp",
+          "tipo": "Álbum de 1948",
+          "titulo": "Uma rua da infância de Ruy",
+          "legenda": "A Rua Floriano Peixoto aparece entre as vistas urbanas do álbum. É a rua lembrada por Vicente Malheiros da Fonseca ao narrar a vizinhança entre a família Barata e a família do maestro Wilson Fonseca.",
+          "credito": "Fundação Cultural do Pará, folha 74",
+          "fonte": "https://obrasraras.fcp.pa.gov.br/publication/file/livros/santarem-album-comemorativo-do-centenario-de-santarem/74/"
+        },
+        {
+          "img": "/img/patronos/sessao-ruy-barata.webp",
+          "tipo": "Documento",
+          "titulo": "O centenário na Câmara dos Deputados",
+          "legenda": "As notas taquigráficas registram a homenagem parlamentar prestada ao poeta por ocasião do centenário de seu nascimento.",
+          "credito": "Câmara dos Deputados, notas taquigráficas",
+          "fonte": "https://www2.camara.leg.br/atividade-legislativa/discursos-e-notas-taquigraficas/discursos-em-destaque/coronavirus/DiscursossobreMPV944202001022020a04082020.pdf"
+        }
       ]
     },
     {
@@ -724,9 +998,23 @@
         {
           "titulo": "Diário Oficial do Pará, edição de 18 de março de 1980",
           "url": "https://www.ioepa.com.br/arquivos/1980/1980.03.18.DOE.pdf"
+        },
+        {
+          "titulo": "Ércio Afonso, memória das instalações da Justiça em Santarém",
+          "url": "https://ercioafonso.blogspot.com/2023/?m=1"
         }
       ],
-      "atividade": "Juiz de Direito e juiz do Trabalho"
+      "atividade": "Juiz de Direito e juiz do Trabalho",
+      "pecas": [
+        {
+          "img": "/img/patronos/album-1948-24.webp",
+          "tipo": "Álbum de 1948",
+          "titulo": "Teatro Vitória e Prefeitura em 1948",
+          "legenda": "A memória da comarca situa parte do expediente judicial no Teatro Vitória. O álbum conserva a vista do prédio décadas antes de Álvaro Amazonas ali atuar.",
+          "credito": "Fundação Cultural do Pará, folha 24",
+          "fonte": "https://obrasraras.fcp.pa.gov.br/publication/file/livros/santarem-album-comemorativo-do-centenario-de-santarem/24/"
+        }
+      ]
     },
     {
       "numero": 28,
@@ -750,7 +1038,18 @@
       ],
       "situacao": "parcial",
       "biografia": [
-        "O acervo da Câmara registra a atividade parlamentar de Sylvio Braga, grafia usada em documentos da época. O repertório biográfico do CPDOC reúne referências complementares para situar sua passagem pela política paraense e pela representação federal."
+        "Formado em Ciências Jurídicas e Sociais pela Faculdade de Direito do Pará em 1946, Braga foi deputado estadual de 1947 a 1955 e dirigiu o Banco de Crédito da Amazônia entre 1955 e 1958. Tomou posse na Câmara dos Deputados em fevereiro de 1959 e iniciou o segundo mandato em 1963.",
+        "Integrou a Comissão Especial de Valorização da Amazônia. Em abril de 1964 teve o mandato cassado e os direitos políticos suspensos por dez anos. Entre os escritos relacionados pela Câmara estão Porto de Santarém, de 1952, e Ligação Cuiabá-Santarém, de 1953, ambos dedicados às comunicações da região."
+      ],
+      "pecas": [
+        {
+          "img": "/img/patronos/ficha-sylvio-braga.webp",
+          "tipo": "Documento",
+          "titulo": "A ficha parlamentar de Sylvio Braga",
+          "legenda": "A Câmara registra a formação em Direito em 1946, os mandatos e a cassação em abril de 1964.",
+          "credito": "Câmara dos Deputados, acervo de história parlamentar",
+          "fonte": "https://www2.camara.leg.br/atividade-legislativa/plenario/discursos/escrevendohistoria/Para-Sylvio-Braga.pdf"
+        }
       ]
     },
     {
@@ -806,7 +1105,17 @@
           "url": "https://www.trt8.jus.br/sites/portal/files/pdfs/revista/Revista_83.pdf"
         }
       ],
-      "atividade": "Advogado"
+      "atividade": "Advogado",
+      "pecas": [
+        {
+          "img": "/img/patronos/album-1948-44.webp",
+          "tipo": "Álbum de 1948",
+          "titulo": "O registro profissional de seu pai",
+          "legenda": "O cadastro do centenário identifica Silvério Sirotheau Corrêa, pai de Ferdinando, como advogado de Santarém. O parentesco e a carreira de Ferdinando estão documentados no depoimento de sua filha ao TRT da 8ª Região.",
+          "credito": "Fundação Cultural do Pará, folha 44",
+          "fonte": "https://obrasraras.fcp.pa.gov.br/publication/file/livros/santarem-album-comemorativo-do-centenario-de-santarem/44/"
+        }
+      ]
     },
     {
       "numero": 31,
@@ -815,13 +1124,23 @@
       "resumo": "Celso Bastos Soares exerceu a advocacia no foro de Santarém.",
       "fontes": [
         {
-          "titulo": "José Ronaldo Dias Campos, “Justiça irmanada dentro e fora do expediente forense” (2015)",
+          "titulo": "Ismaelino Valente e José Ronaldo Dias Campos, Justiça irmanada dentro e fora do expediente forense (2015)",
           "url": "/blog/2015-02-07-justica-irmanada-dentro-e-fora-do/"
         }
       ],
       "situacao": "parcial",
       "biografia": [
-        "José Ronaldo Dias Campos inclui seu nome entre os advogados lembrados pela convivência no expediente forense e fora dele. O testemunho registra a presença de Celso Bastos Soares no cotidiano da comarca e constitui a referência até aqui localizada para a memória profissional do patrono."
+        "O promotor Ismaelino Valente, que chegou a Santarém em 1977, inclui Celso Bastos Soares entre os advogados mais antigos com quem conviveu na comarca. Seu depoimento, reproduzido por José Ronaldo Dias Campos em 2015, distingue essa geração dos profissionais cujo ingresso na advocacia ele próprio acompanhou."
+      ],
+      "pecas": [
+        {
+          "img": "/img/patronos/album-1948-12.webp",
+          "tipo": "Álbum de 1948",
+          "titulo": "Um tabelião entre os organizadores do álbum",
+          "legenda": "A prancha identifica Santino Sirotheau Corrêa como tabelião do 2º Ofício. É um registro de como as antigas serventias participavam também da vida intelectual de Santarém. Décadas mais tarde, as memórias do foro recordariam o convívio entre advogados, magistrados e serventuários.",
+          "credito": "Fundação Cultural do Pará, folha 12",
+          "fonte": "https://obrasraras.fcp.pa.gov.br/publication/file/livros/santarem-album-comemorativo-do-centenario-de-santarem/12/"
+        }
       ]
     },
     {
@@ -842,7 +1161,15 @@
           "url": "https://sistemas.trf1.jus.br/edj/bitstream/handle/123/20567/Cadernos_JUD_PA_2019-10-17_XI_197-min.pdf?isAllowed=y&sequence=1"
         }
       ],
-      "atividade": "Procurador"
+      "atividade": "Procurador",
+      "registro": {
+        "tipo": "Registro de atuação",
+        "titulo": "Representação judicial do INCRA",
+        "ano": "2019",
+        "texto": "O caderno judicial de 17 de outubro registra João Luís Colares Sarmento entre os procuradores que atuavam na representação da autarquia em processo da Justiça Federal no Pará.",
+        "fonte": "https://sistemas.trf1.jus.br/edj/bitstream/handle/123/20567/Cadernos_JUD_PA_2019-10-17_XI_197-min.pdf?isAllowed=y&sequence=1",
+        "credito": "Justiça Federal do Pará, Caderno Judicial de 17 de outubro de 2019"
+      }
     },
     {
       "numero": 33,
@@ -860,7 +1187,15 @@
         }
       ],
       "atividade": "Advogada e dirigente da OAB de Itaituba",
-      "falecimento": "22 de fevereiro de 2014, Itaituba (PA)"
+      "falecimento": "22 de fevereiro de 2014, Itaituba (PA)",
+      "registro": {
+        "tipo": "Memória da advocacia",
+        "titulo": "A tesouraria da Subseção de Itaituba",
+        "ano": "2014",
+        "texto": "Em 24 de fevereiro, o Conselho Federal da OAB registrou o cargo de direção que Leda exercia no oeste do Pará. O comunicado documenta também a mobilização da Ordem e o luto de três dias decretado pela Seccional.",
+        "fonte": "https://www.oab.org.br/noticia/26723/oab-acompanha-investigacoes-de-assassinato-de-advogada-no-para",
+        "credito": "Conselho Federal da OAB, registro da atuação de Leda e acompanhamento das investigações"
+      }
     }
   ]
 }

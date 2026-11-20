@@ -23,9 +23,11 @@ eleventyComputed:
           <img src="{{ p.foto }}" alt="Retrato de {{ p.conhecidoComo or p.nome }}">
           <figcaption>{% if p.fotoFonte %}<a href="{{ p.fotoFonte }}" target="_blank" rel="noopener">{{ p.fotoCredito }}</a>{% else %}{{ p.fotoCredito }}{% endif %}</figcaption>
         </figure>
-        {% else %}
-        <div class="profile__ph" aria-hidden="true"><span>{{ p.numero }}</span></div>
-        
+        {% elif p.pecas and p.pecas.length %}
+        <figure class="archive-preview">
+          <a href="#acervo-ilustrado"><img src="{{ p.pecas[0].img }}" alt="{{ p.pecas[0].titulo }}"></a>
+          <figcaption><a href="#acervo-ilustrado">{{ p.pecas[0].titulo }}</a></figcaption>
+        </figure>
         {% endif %}
 
         <dl class="profile__facts">
@@ -63,6 +65,26 @@ eleventyComputed:
         </section>
         {% endif %}
 
+        {% if p.pecas and p.pecas.length %}
+        <section class="profile__section archive" id="acervo-ilustrado">
+          <h2>Acervo ilustrado</h2>
+          {% for item in p.pecas %}
+          <figure class="archive-piece">
+            <a href="{{ item.fonte }}"><img src="{{ item.img }}" loading="lazy" alt="{{ item.titulo }}"></a>
+            <figcaption><span class="kicker">{{ item.tipo }}</span>
+              <strong>{{ item.titulo }}</strong><p>{{ item.legenda }}</p>
+              <a href="{{ item.fonte }}">{{ item.credito }}</a>{% if item.licenca %} · <a href="{{ item.licencaUrl }}">{{ item.licenca }}</a>{% endif %}
+            </figcaption>
+          </figure>
+          {% endfor %}
+        </section>
+        {% endif %}
+        {% if p.registro %}
+        <aside class="archive-note"><p class="kicker">{{ p.registro.tipo }} · {{ p.registro.ano }}</p>
+          <h2>{{ p.registro.titulo }}</h2><p>{{ p.registro.texto }}</p>
+          <a href="{{ p.registro.fonte }}">{{ p.registro.credito }}</a>
+        </aside>
+        {% endif %}
         {% if p.imagens and p.imagens.length %}
         <section class="profile__section">
           <h2>Iconografia</h2>
