@@ -2,11 +2,15 @@
 layout: layouts/pagina.njk
 title: Patronos
 secao: Memória
-descricao: Os 33 nomes que dão patronato perpétuo às cadeiras da Academia, juristas, magistrados, escritores e homens e mulheres públicos que marcaram a história do Tapajós.
+descricao: Conheça as personalidades homenageadas nas cadeiras da Academia Santarena de Direito e consulte os registros de suas trajetórias.
 permalink: /patronos/
 ---
 <section class="block">
   <div class="container">
+    <figure class="profile__photo" style="max-width:60rem;margin:0 auto 2rem">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Encontro_das_%C3%81guas_Tapaj%C3%B3s-Amazonas_Santar%C3%A9m.jpg" alt="Encontro dos rios Tapajós e Amazonas em Santarém" width="960" height="720" loading="lazy" style="width:100%;height:auto;aspect-ratio:auto;object-fit:contain">
+      <figcaption>Encontro do Tapajós com o Amazonas, em Santarém. <a href="https://commons.wikimedia.org/wiki/File:Encontro_das_%C3%81guas_Tapaj%C3%B3s-Amazonas_Santar%C3%A9m.jpg">Fotografia de Vitogustavo</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>.</figcaption>
+    </figure>
     <ol class="patron-index">
       {% for p in patronos.lista %}
       {% set c = cadeiras.cadeiras[loop.index0] %}
@@ -20,7 +24,7 @@ permalink: /patronos/
           <span class="patron-card__n">Cadeira {{ p.numero }}</span>
           <span class="patron-card__name">{{ p.nome }}</span>
           {% if p.atividade %}<span class="patron-card__role">{{ p.atividade }}</span>{% endif %}
-          {% if p.situacao == "em-elaboracao" %}<span class="patron-card__status">Biografia em elaboração</span>{% endif %}
+          {% if p.situacao == "em-elaboracao" %}<span class="patron-card__status">Pesquisa em andamento</span>{% endif %}
         </a>
       </li>
       {% endfor %}
