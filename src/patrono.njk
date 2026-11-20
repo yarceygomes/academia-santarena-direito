@@ -25,7 +25,7 @@ eleventyComputed:
         </figure>
         {% else %}
         <div class="profile__ph" aria-hidden="true"><span>{{ p.numero }}</span></div>
-        <p class="small muted">Sem fotografia de uso livre localizada.</p>
+        
         {% endif %}
 
         <dl class="profile__facts">
@@ -37,14 +37,19 @@ eleventyComputed:
       </aside>
 
       <div class="profile__main">
-        <p class="kicker">Patrono da Cadeira nº {{ p.numero }}</p>
+        <p class="kicker">Cadeira nº {{ p.numero }}</p>
         <h1>{{ p.nome }}</h1>
         {% if p.conhecidoComo or p.nomeCompleto %}<p class="profile__aka">{% if p.conhecidoComo %}Conhecido como {{ p.conhecidoComo }}{% else %}{{ p.nomeCompleto }}{% endif %}</p>{% endif %}
         {% if p.atividade %}<p class="profile__role">{{ p.atividade }}</p>{% endif %}
 
         {% if p.resumo %}<p class="profile__lead">{{ p.resumo }}</p>{% endif %}
 
-        {% if p.trajetoria and p.trajetoria.length %}
+        {% if p.biografia and p.biografia.length %}
+        <section class="profile__section">
+          <h2>Trajetória</h2>
+          {% for paragrafo in p.biografia %}<p>{{ paragrafo }}</p>{% endfor %}
+        </section>
+        {% elif p.trajetoria and p.trajetoria.length %}
         <section class="profile__section">
           <h2>Trajetória</h2>
           <ul>{% for t in p.trajetoria %}<li>{{ t }}</li>{% endfor %}</ul>
@@ -58,14 +63,30 @@ eleventyComputed:
         </section>
         {% endif %}
 
+        {% if p.imagens and p.imagens.length %}
+        <section class="profile__section">
+          <h2>Iconografia</h2>
+          {% for imagem in p.imagens %}
+          <figure class="profile__photo">
+            <img src="{{ imagem.url }}" alt="{{ imagem.alt }}" width="{{ imagem.largura }}" height="{{ imagem.altura }}" loading="lazy" style="width:100%;height:auto;aspect-ratio:auto;object-fit:contain">
+            <figcaption>{{ imagem.legenda }} <a href="{{ imagem.fonte }}" target="_blank" rel="noopener">{{ imagem.credito }}</a>.</figcaption>
+          </figure>
+          {% endfor %}
+        </section>
+        {% endif %}
+
+        {% if p.acervo and p.acervo.length %}
+        <section class="profile__section">
+          <h2>Documentos e imagens de acervo</h2>
+          <ul>{% for item in p.acervo %}<li><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.titulo }}</a></li>{% endfor %}</ul>
+        </section>
+        {% endif %}
+
         {% if p.situacao != "completo" %}
         <section class="profile__section profile__pending">
-          <h2>Biografia em elaboração</h2>
-          <p>
-            {% if p.situacao == "em-elaboracao" %}Ainda não localizamos fontes públicas confiáveis sobre a trajetória deste patrono.{% else %}As informações abaixo são parciais.{% endif %}
-            Documentos, fotografias e depoimentos podem ser enviados à Academia pela página de <a href="/contato/">contato</a>.
-          </p>
-          {% if p.nota %}<p class="muted">{{ p.nota }}</p>{% endif %}
+          <h2>Pesquisa em andamento</h2>
+          {% if p.nota %}<p>{{ p.nota }}</p>{% endif %}
+          <p>O acervo da Academia recebe documentos, fotografias e depoimentos sobre esta trajetória pela página de <a href="/contato/">contato</a>.</p>
         </section>
         {% endif %}
 
